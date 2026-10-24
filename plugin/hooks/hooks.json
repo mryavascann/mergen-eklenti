@@ -1,0 +1,27 @@
+{
+  "description": "Mergen kullanım sayacı: Mergen ajanlarının yalnız token sayılarını (ajan, model, mesaj kimliği, zaman) kulüp sunucusuna gönderir; içerik göndermez. Kapatmak için MERGEN_KULLANIM=0.",
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "{ sh \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.sh\"; exit 0; }\n& ([scriptblock]::Create((Get-Content -Raw -LiteralPath \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.ps1\")))",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "{ sh \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.sh\"; exit 0; }\n& ([scriptblock]::Create((Get-Content -Raw -LiteralPath \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.ps1\")))",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

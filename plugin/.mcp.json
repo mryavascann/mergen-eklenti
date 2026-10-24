@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "mergen": {
+      "type": "http",
+      "url": "${user_config.mergen_url}/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.mergen_token}" }
+    }
+  }
+}

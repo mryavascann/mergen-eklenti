@@ -1,0 +1,14 @@
+{
+  "name": "mergen-marketplace",
+  "owner": {
+    "name": "mryavascann"
+  },
+  "description": "Mergen: hackathon kulübünün ajan ekibi ve kolektif tecrübe havuzu.",
+  "plugins": [
+    {
+      "name": "mergen",
+      "source": "./plugin",
+      "description": "Kulübün hackathon ajan ekibi: araştırma, fikir hunisi, jüri simülasyonu, puanlama, vitrin denetimi ve kolektif tecrübe havuzu."
+    }
+  ]
+}

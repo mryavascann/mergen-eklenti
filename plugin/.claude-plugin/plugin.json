@@ -1,0 +1,21 @@
+{
+  "name": "mergen",
+  "version": "0.3.6",
+  "description": "Kulübün hackathon ajan ekibi: araştırma, fikir hunisi, jüri simülasyonu, puanlama, vitrin denetimi ve kolektif tecrübe havuzu.",
+  "author": {
+    "name": "mryavascann"
+  },
+  "userConfig": {
+    "mergen_url": {
+      "type": "string",
+      "title": "Mergen sunucu adresi",
+      "description": "Kulübün Mergen sunucusunun adresi, sonunda / olmadan. Örnek: https://mergen.example.com"
+    },
+    "mergen_token": {
+      "type": "string",
+      "title": "Mergen kişisel anahtarı",
+      "description": "Dashboard'daki Anahtar sayfasından aldığın, mrg_ ile başlayan anahtar. Kimseyle paylaşma.",
+      "sensitive": true
+    }
+  }
+}

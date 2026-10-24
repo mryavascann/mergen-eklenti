@@ -1,0 +1,11 @@
+{
+  "extraKnownMarketplaces": {
+    "mergen-marketplace": {
+      "source": { "source": "git", "url": "https://github.com/mryavascann/mergen-eklenti.git" },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "mergen@mergen-marketplace": true
+  }
+}
