@@ -26,12 +26,14 @@ Simülasyonun değeri körlüğe bağlıdır. Kazananları bilen bir tahmin veri
 
   > **KÖR MOD.** Bu bir simülasyon. `<etkinlik adı>` etkinliğinin sonuçlarını, kazananlarını, ödül alan projelerini, jüri kararlarını ve proje galerisini **açma ve arama**. "<etkinlik> winners", "<etkinlik> results" gibi aramalar yapma. Bu etkinliğin bitiş tarihinden (`<tarih>`) sonra yayımlanmış kaynakları kullanma. Önceki etkinlikler serbest. Yanlışlıkla bu etkinliğin bir kazananını ya da sonucunu görürsen hemen dur ve raporunun ilk satırına `SIZINTI: <ne gördün>` yaz.
 
+- **Ham dosyalar oturum klasörünün dışında durur.** İndirilen galeri, proje sayfaları, sonuç sayfaları ve `muhur.md` kör ajanların okuduğu `mergen/simulasyon/<kisa-ad>-<tarih>/` içine girmez; `mergen/simulasyon/_ham-<kisa-ad>/` altına yazılır (Ülgen'in kör listeyi yazdığı kaynak da orada). Ülgen'den gelen sonuç yapısı bilgisi (finalist sayısı, track sayısı gibi) kör ajanların okuduğu `durum.md`'ye yazılmaz; `_ham-<kisa-ad>/yapi.md` dosyasında durur.
+- Kör ajan brifinglerine şu satır standart olarak girer: "Oturum klasörünü Glob ile listeleme; yalnız adı verilen dosyaları aç." Dosya adları da (proje slug'ları) bilgidir.
 - Bir ajan `SIZINTI` bildirirse ya da sen kendi belleğinden bu etkinliğin kazananlarını hatırladığını fark edersen, simülasyonu tamamla ama `sim_mark` ile `contaminated` işaretle ve notunu yaz. Kirli koşular karneye girmez.
 - Model belleği riski: modelin bilgi kesim tarihinden sonra biten etkinlikler tercih edilir. Daha eski bir etkinlik seçilirse raporda "bellek riski" diye işaretle.
 
 ## Döngü
 
-Her simülasyon `mergen/simulasyon/<kisa-ad>-<tarih>/` klasöründe yaşar: `durum.md`, `pano/`, `puanlar/`, `kor-liste.md`, `muhur.md` (yalnız Ülgen), `rapor.md`.
+Her simülasyon `mergen/simulasyon/<kisa-ad>-<tarih>/` klasöründe yaşar: `durum.md`, `pano/`, `puanlar/`, `kor-liste.md`, `rapor.md`. Ham veri ve `muhur.md` (yalnız Ülgen) kardeş klasörde: `mergen/simulasyon/_ham-<kisa-ad>/`.
 
 ### 1. Hackathon seçimi
 
@@ -46,6 +48,7 @@ Her simülasyon `mergen/simulasyon/<kisa-ad>-<tarih>/` klasöründe yaşar: `dur
 - Etkinliğin sunulan projelerini ödül, rozet, derece ve sıralama bilgisi olmadan, karıştırılmış sırayla `kor-liste.md`'ye yazar (ad, tek satır açıklama, platform ve teknoloji etiketleri, olgunluk). Olgunluk sütunu canlı demo, video, açık repo ve ekran görüntüsü için var/yok yazar; yalnız projenin kendi tesliminden gelir, sonuç bilgisi taşımaz.
 - Gerçek sonuçları (kazananlar, dereceler, varsa jüri yorumları ve sorulan sorular) `muhur.md`'ye yazar.
 - Sana yalnız proje sayısını, kör listeye yazılan proje sayısını, olgunluk sütununda kaç projenin `bilinmiyor` kaldığını, sonuç kaynağının türünü ve "mühür hazır" bilgisini döner; kazanan adı söylemez.
+- **Devpost:** etkinlik, galeri ve proje sayfaları WebFetch'e 403 verir; `curl` (tarayıcı User-Agent'ıyla) ve Chrome okur. Ülgen'in Bash aracı yoksa Mergen sayfaları `_ham-<kisa-ad>/` altına `curl` ile indirir ve her proje sayfasından "Submitted to" (ödül/sonuç) bölümünü atan bir çıkarıcıyla tek özet dosyası üretir; Ülgen kör listeyi bu özetten yazar ve karartmaları ham HTML'ye karşı denetler. Karartma sözcük listesi dar tutulur: yalnız ödül ve sonuç ifadeleri ("winner", "won the", "1st place", "finalist", "prize"); "won't", "placed", "bet on winners" gibi gündelik kullanımlar karartılmaz. Çıkarıcı bir kez yazılıp doğrulanınca skill klasörüne konur, her koşuda yeniden yazılmaz. Kalibrasyon projeleri Devpost'taysa Töre için de aynı yol kullanılır.
 - Galeri ya da sonuç sayfası açık uç ve WebFetch'le okunmazsa (DoraHacks, Devpost, Luma gibi JavaScript ağırlıklı ya da giriş isteyen sayfalar) Ülgen üyenin Chrome'unda okur. Ülgen galeri ya da sonuç sayfası için "erişilemedi (Chrome bağlı değil)" ya da "erişilemedi (giriş gerekli)" dönerse kör liste ya da mühür eksiktir: tek koşuda kullanıcıdan `/chrome` ile bağlamasını ya da siteye giriş yapmasını iste, sonra Ülgen'i yeniden çağır; sürekli çalışmada `sim_mark` ile `abandoned` işaretle ve başka adaya geç.
 
 ### 3. Kör oturum
@@ -71,7 +74,7 @@ Her simülasyon `mergen/simulasyon/<kisa-ad>-<tarih>/` klasöründe yaşar: `dur
 1. Final fikir için Kayra'ya derin analiz modunda kısa analiz yazdır: demo akışı (sahne biçimine göre), 30 saniyelik pitch, README ilk ekranı ve `puanlama` bölüm 9'daki demo günü hali (3 kişilik takım, etkinlik süresi). Sonraki bütün Töre çağrıları bu paragrafı kullanır.
 2. **Sunum:** Kurultay'ın üç personasına pitch'i ve demo akışını ver (tek fikir modu); soruları ve kararları `pano/sunum.md`'ye yaz.
 3. **Kendi tahminimiz:** Töre'yi üç paralel turda çağır; final fikrin Hackathon puanı (orta değer ve aralık) ve tahmini derecesi (`ilk 3` / `ilk 10` / `derece yok`) ve tek cümle gerekçe. Puan ve derece fikrin demo günü haline verilir (`puanlama` bölüm 9).
-4. **Gerçek projelerin kör sıralaması:** Töre'yi `kor-liste.md` ile çağır: onaylı Şema 1'e göre en güçlü 10 projeyi sıralasın ve ilk 3'ü gerekçeleriyle seçsin. Projeler `puanlama` bölüm 9'a göre yaptıkları ve gösterdikleriyle okunur. Olgunluk sütunu sıralamanın girdisidir: canlı demo ve video, Şema 1'de demoya, uygulamaya ve görsel etkiye bakan ölçütler için kanıttır. Canlı demosu da videosu da olmayan bir projeyi ilk 10'a alıyorsa nedenini yazsın. Proje sayısı çoksa önce kısa açıklamalardan ve olgunluk sütunundan 25'e indirsin, sonra sıralasın. Final fikrimizin bu sıralamada nereye gireceğini de söylesin: demo günü haliyle (madde 1); bir projenin üstüne koyuyorsa fikrimizin göstereceği somut kanıtı o projenin olgunluk satırının karşısına yazsın.
+4. **Gerçek projelerin kör sıralaması:** Töre'yi `kor-liste.md` ile çağır: onaylı Şema 1'e göre en güçlü 10 projeyi sıralasın ve ilk 3'ü gerekçeleriyle seçsin. Projeler `puanlama` bölüm 9'a göre yaptıkları ve gösterdikleriyle okunur. Olgunluk sütunu sıralamanın girdisidir: canlı demo ve video, Şema 1'de demoya, uygulamaya ve görsel etkiye bakan ölçütler için kanıttır. Canlı demosu da videosu da olmayan bir projeyi ilk 10'a alıyorsa nedenini yazsın. Proje sayısı çoksa önce kısa açıklamalardan ve olgunluk sütunundan 25'e indirsin, sonra sıralasın. Görülmüşlük, kalabalık kalıp ya da ayrışma tavanı uyguluyorsa sıralamayı bir de tavansız yapsın ve ilk 10'u iki sıranın birleşiminden seçsin (`puanlama` bölüm 4, kural 6). Final fikrimizin bu sıralamada nereye gireceğini de söylesin: demo günü haliyle (madde 1); bir projenin üstüne koyuyorsa fikrimizin göstereceği somut kanıtı o projenin olgunluk satırının karşısına yazsın.
 5. Bütün tahminleri `rapor.md`'nin "Kör tahmin" bölümüne yaz. **Bu bölüm yazılmadan mühür açılmaz.**
 
 ### 6. Mührü aç ve kıyasla
@@ -83,7 +86,7 @@ Kör tahmin bölümü kapandıktan sonra körlük biter.
    - `top3_hits`: kör ilk 3'ümüzden kaçı gerçek ilk 3'te.
    - `winner_rank_in_blind`: gerçek birincinin kör sıralamamızdaki yeri (ilk 10'da değilse boş).
    - Gerçek jüri soruları biliniyorsa personalarımızın bu soruları ne oranda tahmin ettiği (`persona_question_overlap`, 0–1).
-   - Final fikrimiz demo günü haliyle (`puanlama` bölüm 9) gerçek kazananlarla kıyaslanınca nereye girerdi (`our_idea_would_place`), gerekçesiyle.
+   - Final fikrimiz demo günü haliyle (`puanlama` bölüm 9) gerçek kazananlarla kıyaslanınca nereye girerdi (`our_idea_would_place`), gerekçesiyle. `our_idea_would_place` Töre'nin "fikrimiz × gerçek birinci" kararından türetilmez: gerçek birinci kör sıralamada ilk 10 dışındaysa karşılaştırma "ölçeğin kaçırdığı proje" diye işaretlenir ve fikrin yeri, kazananların teslimde ve finalde gerçekten gösterdiğiyle (tamlık, kullanıcı, canlı adres, test) kalem kalem kıyaslanarak verilir. İki simülasyonda Töre fikrimizi, kör sırada 23.–48. olan gerçek birincinin üstüne koydu.
    - **Dersler:** kazananlarda olup bizim fikrimizde olmayan; doğru çıkan ve yanıltan itirazlar ve dersler; Töre'nin sistematik iyimser ya da kötümser olduğu boyutlar. Her dersin yanında onu yakalaması gereken ajan yazar.
    - **Ajan karnesi** (`surec` §9): bu koşuda çalışan her ajan için tek satır; neyi doğru, neyi yanlış yaptı, kanıtıyla.
 

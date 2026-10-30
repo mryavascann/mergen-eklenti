@@ -19,7 +19,7 @@ Brifingde etkinlik adı, linki ve klasör yolu gelir.
    - **Olgunluk** tarafsız bir kanıt sinyalidir: jüri demo gününde yapılmış olanı görür. Biçim: `demo: var/yok · video: var/yok · repo: var/yok · ekran görüntüsü: var/yok` (canlı demo bağlantısı, demo videosu, açık repo bağlantısı, ekran görüntüsü).
    - Yalnız projenin kendi tesliminden al: teslim sayfasındaki bağlantılar ve medya. Bağlantıların kendisini yazma, yalnız var/yok; bağlantılarda ve README'lerde sonradan eklenmiş ödül notları olabilir. Sonuç bilgisinden (ödül, oy, rozet, öne çıkarma, sıralama) bu sütuna hiçbir şey girmez.
    - Her projeye aynı yoldan ve aynı özenle bak; kazananları bildiğin için onlara daha çok bakma. Göremediğin değere `bilinmiyor` yaz.
-3. **`muhur.md`:** gerçek sonuçlar: kazananlar ve dereceleri (track'lerle), varsa jüri yorumları ve sunumlarda sorulan sorular, kaynak linkleri, sonuçların açıklandığı tarih.
+3. **`muhur.md`** (oturum klasörünün dışında, `_ham-<kisa-ad>/` altında; ham galeri ve sonuç dosyaları da orada kalır, `simulasyon` Körlük kuralları): gerçek sonuçlar: kazananlar ve dereceleri (track'lerle), varsa jüri yorumları ve sunumlarda sorulan sorular, kaynak linkleri, sonuçların açıklandığı tarih.
 4. Mergen'e **yalnız** şunu dön: proje sayısı, kör listeye kaç proje yazıldığı, olgunluk sütununun kaç projede `bilinmiyor` kaldığı, sonuçların hangi kaynaktan alındığı (link vermeden "galeri" / "duyuru" gibi; Chrome'la okuduysan "(Chrome)"), açamadığın sayfa varsa hangi tür olduğu ve nedeni ("erişilemedi (giriş gerekli)" / "(Chrome bağlı değil)"), "mühür hazır". Kazanan adı, derece ya da ipucu verme.
 
 ## Tarayıcı ve körlük
@@ -39,7 +39,7 @@ Hesapla ve `rapor.md`'nin "Kıyas" bölümüne yaz:
 - `top3_hits` (0–3): kör ilk 3'ten kaçı gerçek ilk 3'te. Track'li etkinlikte "genel ilk 3"ü nasıl tanımladığını yaz.
 - `winner_rank_in_blind`: gerçek birincinin kör ilk 10'daki yeri; yoksa boş.
 - `persona_question_overlap` (0–1): gerçek jüri soruları biliniyorsa, Kurultay personalarının sorduğu sorulardan anlamca örtüşenlerin payı; bilinmiyorsa boş.
-- `our_idea_would_place`: fikrimizin gerçek alan içinde tahmini yeri (`ilk 3` / `ilk 10` / `derece yok`) ve gerekçe; Töre'nin karşılaştırma sonuçlarına dayan. Fikrimizi tam vizyonuyla değil, demo günü haliyle yerleştir (`${CLAUDE_PLUGIN_ROOT}/skills/puanlama/SKILL.md` bölüm 9).
+- `our_idea_would_place`: fikrimizin gerçek alan içinde tahmini yeri (`ilk 3` / `ilk 10` / `derece yok`) ve gerekçe; Töre'nin karşılaştırma sonuçları girdidir, hükmün kaynağı değil. Gerçek birinci kör sıralamada ilk 10 dışındaysa karşılaştırmayı "ölçeğin kaçırdığı proje" diye işaretle ve yeri, kazananların gerçekte gösterdiğiyle (tamlık, kullanıcı, canlı adres, test) kalem kalem kıyaslayarak ver (`simulasyon` bölüm 6). Fikrimizi tam vizyonuyla değil, demo günü haliyle yerleştir (`${CLAUDE_PLUGIN_ROOT}/skills/puanlama/SKILL.md` bölüm 9).
 - **Dersler** (madde madde, her biri kanıtla ve onu yakalaması gereken ajanın adıyla: `ajan:tore`, `ajan:kam`, `ajan:kayra` gibi; adlar `tecrube-karti` §1'de):
   - Kazananlarda olup kör fikrimizde olmayan (tarif adayı).
   - Doğru çıkan ve yanıltan itirazlar, dersler ve persona tahminleri.

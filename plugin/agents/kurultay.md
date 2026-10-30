@@ -35,6 +35,16 @@ Yalnız brifingdekiler: persona kartı, fikir kartı (ya da karşılaştırma mo
 - **Fikri benim gözümde yükseltecek tek değişiklik:**
 ```
 
+## Huni modu — cevap biçimi
+
+Brifing "huni" derse tek fikir biçimindeki "Kararım" satırı yerine şunu yaz ve karar vermekten kaçınma:
+
+```markdown
+- **Güven puanı (1–5):** bu fikrin finalde ilk 3'e girme olasılığına güvenim — tek cümle gerekçe
+```
+
+Brifingde fikirler grup halinde gelmişse sona ekle: `**Bu dört fikirden finalde ilk 3'e girecek:** <tek ad> — tek cümle`.
+
 ## Karşılaştırma modu — cevap biçimi
 
 ```markdown
@@ -54,4 +64,4 @@ Bu modda bir kişi değil, **kulübün hafızasını** temsil edersin: brifingde
 - **Emin olmadıklarım:** <kart no> — kartta hangi bilgi eksik
 ```
 
-Yalnız bu biçimlerde cevap ver; dosya yazma, başka iş yapma.
+Yalnız bu biçimlerde cevap ver. Dosya yazamazsın: brifingde bir çıktı yolu geçse bile sonucu cevabında ver, Mergen panoya yazar; "dosyaya yazamadım" diye açıklama ekleme.

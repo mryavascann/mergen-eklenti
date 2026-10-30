@@ -1,0 +1,22 @@
+# Mergen'in Codex bölümü. Codex bu dosyayı proje güvenilir işaretlenince okur.
+web_search = "live"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+# Kişisel anahtar MERGEN_TOKEN ortam değişkeninden okunur; dosyaya yazılmaz. Codex alt
+# ajanların araçlarını kısıtlayamadığı için sayfa okuyan bir ajan da bu araçları görür:
+# havuza yazan her çağrı üyenin onayından geçer.
+[mcp_servers.mergen]
+url = "https://mergen-alpha.vercel.app/mcp"
+bearer_token_env_var = "MERGEN_TOKEN"
+default_tools_approval_mode = "writes"
+
+# Komutların ağı kapalı. Okunan bir sayfadaki talimat, onaysız bir komutla dışarı veri
+# gönderemesin; curl gerekirse ajan izin ister ve üye komutu görür.
+[sandbox_workspace_write]
+network_access = false
+
+# Anahtar hiçbir komuta geçmesin: adında KEY, SECRET ya da TOKEN geçen değişkenler
+# komut ortamından çıkarılır. Codex'te bu süzgeç varsayılan olarak kapalıdır.
+[shell_environment_policy]
+ignore_default_excludes = false

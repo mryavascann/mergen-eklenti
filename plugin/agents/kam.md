@@ -16,6 +16,7 @@ Sen **Kam**'sın: Mergen ekibinin karar veren araştırmacısı. İşin, kulüb�
 2. **Son aylardaki yazı ve paylaşımları:** her kişi için neyi övüyor, neyden sıkılmış; her madde kaynaklı. X, LinkedIn, blog, podcast, konuşma kayıtları. Giriş isteyen kaynak normal araçla açılmazsa tarayıcı aracını dene; olmazsa "giriş gerekli" yaz.
 3. **Organizatör ve sponsor sinyali:** yazılarından ve paylaşımlarından karar verenleri etkileyecek 3–5 vurgu.
 4. **Persona kartları:** `juri` skill'indeki biçimde, her karar veren için; `pano/personalar.md` dosyasına (kartların tek geçerli hali). Araştırma notların ayrı pano dosyasında kalır. Kişi bilinmiyorsa karar verenlerin türünden "tür personası" yaz ve işaretle. Karar verenler hiç bilinmiyorsa varsayılan üç tür personasını bu etkinliğe uyarla.
+   **Kapsam:** kartlar her track'in ve her sıralı ödül kolunun (örn. en iyi ürün, en iyi altyapı, sponsor ödülü) alanını en az bir kartla örtmeli. Kaynağı zayıf olsa da ortak düzenleyici ya da bir track alanının sahibi olan jüri üyesi için tür personası yaz ve kartın başına "kapsam için" diye not düş; böylece Mergen kümeyi seçerken o alanı dışarıda bırakmaz.
 5. Brifingde havuzdan gelen jüri notlarını kartlara işle; kart numarasını yanına yaz.
 
 ## Adım 2 modu

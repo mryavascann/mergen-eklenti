@@ -40,7 +40,7 @@ Persona kartlarının tek geçerli hali `pano/personalar.md` dosyasıdır. Kam A
 
 ## 2. Kurultay protokolü
 
-1. **Persona seçimi:** her fikir için üç persona kullanılır. Kam üçten fazla kart yazdıysa Mergen, kararı en çok etkileyen (baş jüri, ağırlığı yüksek oy) ve birbirinden farklı mercekleri olan üçünü seçer ve hangilerini neden seçtiğini `durum.md`'ye yazar. Bütün fikirler aynı üç personayla sorgulanır.
+1. **Persona seçimi:** her fikir için üç persona kullanılır. Kam üçten fazla kart yazdıysa Mergen, kararı en çok etkileyen (baş jüri, ağırlığı yüksek oy) ve birbirinden farklı mercekleri olan üçünü seçer ve hangilerini neden seçtiğini `durum.md`'ye yazar. Bütün fikirler aynı üç personayla sorgulanır. **Kapsam:** seçilen küme her track'in ve her sıralı ödül kolunun alanını en az bir personayla kapsamalıdır. Kaynağı zayıf ama ortak düzenleyici ya da track alanının sahibi olan bir jüri üyesi için de tür personası kurulur (Kam) ve küme onu dışarıda bırakmaz; gerekirse persona sayısı dörde çıkar ve nedeni `durum.md`'ye yazılır.
 2. Mergen her persona için ayrı bir Kurultay ajanı (`mergen:kurultay`) çağırır: fikir başına üç çağrı. Üçü paralel çalışır ve **birbirinin cevabını görmez**. Bu, birinin görüşünün diğerlerini sürüklemesini önler.
 3. Her ajana yalnız şunlar verilir: persona kartı, fikir kartı (kısa kartın bütün satırları: tek cümle, kullanıcı, çekirdek döngü, ne inşa ediyoruz, primitif, tek sahne, demo anı, para ve yayılma, talep sinyali), hackathonun bir paragraflık özeti ve Şema 1 ölçütleri. Sohbet geçmişi, diğer fikirler ve Töre'nin puanları **verilmez**.
 4. Her persona şu biçimde cevap verir:
@@ -57,6 +57,8 @@ Persona kartlarının tek geçerli hali `pano/personalar.md` dosyasıdır. Kam A
 - **Fikri benim gözümde yükseltecek tek değişiklik:**
 ```
 
+   **Huni aşamasında** (çok fikir yan yana) karar üçlü değil ölçeklidir: persona her fikre 1–5 **güven puanı** verir; ayrıca brifingdeki dört fikir için göreli soru sorulur: "bu dört fikirden finalde ilk 3'e girecek olan hangisi?" (tek ad, tek cümle gerekçe). Seçimde üçlü karar (geçer/şüpheli/eler) ağırlık taşımaz; güven puanları ve göreli seçimler sayılır. İki simülasyonda 12 çağrı da aynı kararı ("şüpheli", "geçer") döndü ve ayırt etmedi; aynı personalar göreli soruyla ayırt etti. Derin analizde ve sunumda üçlü karar kalır.
+
 5. Kurultay'ın cevaplarını Mergen `pano/kurultay-<huni|derin>.md` dosyasına fikir fikir yazar ve sentezler:
    - **Ortak itirazlar** (en az iki personada geçen) fikir kartının "Puanı düşürebilecekler" ve "Zor sorular" satırına girer.
    - Bir persona "eler" dediyse ve itirazı fikir kartında cevapsızsa fikir "jüri riski" işaretlenir.
@@ -65,7 +67,7 @@ Persona kartlarının tek geçerli hali `pano/personalar.md` dosyasıdır. Kam A
 
 ## 3. İtiraz ön filtresi
 
-Fikri yazan Kayra'dır; fikirleri itiraz kütüphanesinden geçirme işi ondan bağımsız bir ajana verilir: Kurultay **itiraz modunda** çağrılır. Brifinge yalnız şunlar girer: geçerli itirazların listesi (kart numarası, başlık, test sorusu, aşama) ve fikirlerin kısa kartları. Kurultay her fikir için takıldığı itirazları tek cümle gerekçeyle döner.
+Fikri yazan Kayra'dır; fikirleri itiraz kütüphanesinden geçirme işi ondan bağımsız bir ajana verilir: Kurultay **itiraz modunda** çağrılır. Brifinge yalnız şunlar girer: geçerli itirazların listesi (kart numarası, başlık, test sorusu, aşama) ve fikirlerin kısa kartları. Kurultay her fikir için takıldığı itirazları tek cümle gerekçeyle **cevabında** döner; Kurultay'ın aracı yalnız Read'dir, dosya yazamaz. Sonucu Mergen `pano/` altına yazar (brifinge çıktı yolu verilmez).
 
 - **Aşama süzgeci:** fikir hunisinde yalnız `idea`, `mvp`, `team`, `other` aşamalı itirazlar ve aşaması boş olanlar uygulanır. `demo`, `pitch`, `readme`, `submission`, `judging` aşamalı itirazlar derin analizde (demo akışı, README ilk ekranı, teslim planı) ve vitrin denetiminde uygulanır.
 - Takılan fikir Kayra'ya düzeltme modunda gönderilir; somut bir tasarım değişikliğiyle düzeltilen fikir **bir kez** daha itiraz modunda kontrol ettirilir. Yine takılırsa "itirazla elendi" listesine girer.
