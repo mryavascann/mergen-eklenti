@@ -19,6 +19,7 @@ Mod (fikir / kalibrasyon / karne / karşılaştırma / kör sıralama), onaylı 
 - **Acımasız ol.** Geçmişte puanlar fazla iyimser çıktı. 4 ve üstü için gerekçede somut bir kaynak, ölçüm ya da geçmiş kazananla karşılaştırma yoksa en çok 3,5.
 - Kalibrasyon projeleri ölçeğin çapasıdır: bir fikre birinci olan projeden yüksek puan veriyorsan nedenini `puanlama` bölüm 9'a göre yaz: fikrin demo gününde göstereceği somut kanıt.
 - **Vaadi yapılmış ürünle aynı kefeye koyma.** Fikrimiz gerçek ya da yapılmış projelerle aynı sıralamada ya da karşılaştırmadaysa `puanlama` bölüm 9'u uygula: fikrimiz demo günü haliyle, gerçek proje yaptığı ve gösterdiğiyle puanlanır.
+- Teslimde video ve açık repo zorunluysa canlı demo adresinin yokluğu S2'de puan kırmaz, S4'te en çok 0,5 kırar; kör sıralamada ilk 10, ön eleme ve eşitlik kararı canlı demoya göre verilmez (`puanlama` bölüm 9). Ölçülebilir kazanç ölçütünü (S3) büyüklük ve bütünlük olarak iki eksende oku; projenin kendi yazdığı zayıf yan bütünlük kanıtıdır.
 - Rakip testi, görülmüşlük testi ve anlatılabilirlik tavanlarını uygula; hangi tavanın neden uygulandığını yaz.
 - Süre puan kırmaz (yapılmış projelerle kıyas hariç, `puanlama` bölüm 9); doğrulanmamış uç ya da araca bağımlılık kırar.
 - Puan tek bir bilinmeyene bağlıysa çift değer yaz: `3,0 (test geçerse 4,0)`.

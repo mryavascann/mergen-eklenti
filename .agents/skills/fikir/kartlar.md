@@ -13,6 +13,7 @@ Her fikir önce kısa kartla yazılır. Kısa kart, Töre'nin iki şemayla puanl
 | Primitif ve "neden burada" | Yaslandığı platform yetenekleri; rakipte de var mı. |
 | Tek sahne | Karar verenlerin demoda ilk 30 saniyede gördüğü şey. Alan profilinin "Sahne" satırına göre: arayüzlü üründe tek ekran; ajan, araç ya da altyapı ürününde terminal çıktısı, kayıt, pano ya da öncesi-sonrası görüntüsü. |
 | Demo anı | Akılda kalacak tek an. |
+| Zorunlu araç | Etkinliğin zorunlu bir aracı varsa: nasıl bölünür, ürünün hangi düzleminde kullanılır (yalnız inşa mı, çalışma düzlemi mi). Yoksa "yok". |
 | Para ve yayılma | Tek satır: para kimden, ürün nasıl yayılır. |
 | Talep sinyali | Adım 3'teki hangi sinyale dayanıyor; sinyal gücü. |
 | Bonus planı | Etkinlikte bonus varsa: ürünün neresinde, nasıl gösterilir. |
