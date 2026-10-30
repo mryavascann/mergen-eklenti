@@ -30,11 +30,12 @@ Brifingde kulübün daha önce simüle ettiği etkinlikler gelir. 3 aday öner; 
 - Kuralları ve değerlendirme ölçütleri herkese açık.
 - Jüri listesi açık (yoksa "jüri bilinmiyor" diye işaretle).
 - Sunulan projelerin listesi açık (galeri).
+- **Sıralı sonuç yayımlanmış:** genel kolda (genel kol yoksa en büyük kolda) 1-2-3 ayrı ayrı açıklanmış. Yalnız tek kazanan ya da sponsor ödülü varsa adayı önerme; doğrulayamadıysan tabloda "doğrulanmadı" yaz.
 - Tercihen modelin bilgi kesim tarihinden (Haziran 2026) sonra bitmiş.
 - Daha önce simüle edilmemiş ve şu an başka bir üyenin simüle etmediği (brifingdeki listede devam eden koşular da var).
 - Kapsam geneldir: blockchain etkinliği az olduğu için simülasyon her türden hackathonla yapılır. Uygun bir blockchain etkinliği varsa adaylardan biri o olsun.
 
-`ad | link | bitiş tarihi | platform | proje sayısı (yaklaşık) | jüri açık mı | galeri linki | neden iyi bir test`
+`ad | link | bitiş tarihi | platform | proje sayısı (yaklaşık) | jüri açık mı | galeri linki | sıralı sonuç (evet/hayır/doğrulanmadı) | neden iyi bir test`
 
 **Kazananları, dereceleri ve ödül alan projeleri raporuna yazma** ve Mergen'e söyleme; simülasyonun körlüğü buna bağlı. Yalnız "sonuçlar açık: evet" yaz.
 
