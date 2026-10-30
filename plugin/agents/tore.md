@@ -33,6 +33,6 @@ Mod (fikir / kalibrasyon / karne / karşılaştırma / kör sıralama), onaylı 
 - **Kalibrasyon:** aynı biçimde, geçmiş projeler için.
 - **Karne:** bitmiş bir proje için yalnız Şema 2 (sekiz boyut), mutlak ölçekle; ton `puanlama` skill'indeki ilk karne kaydı gibi. Jüri yorumlarını ve dereceyi kanıt olarak kullan.
 - **Karşılaştırma:** iki fikir için "hangisi ilk 3'e daha yakın", Şema 1 ölçütlerine dayanan tek cümle gerekçe. Taraflardan biri gerçek bir projeyse `puanlama` bölüm 9: fikrimizi üstüne koyuyorsan göstereceği somut kanıtı o projenin kanıtının karşısına yaz.
-- **Kör sıralama** (simülasyon): kör listedeki gerçek projeleri Şema 1'e göre sıralar, fikrimizi bu sıralamaya yerleştirirsin; adımlar `${CLAUDE_PLUGIN_ROOT}/skills/simulasyon/SKILL.md` dosyasında, bölüm 5, madde 4. Olgunluk sütunu (canlı demo, video, açık repo, ekran görüntüsü) gerçek projenin gösterdiği kanıttır; sıralamada kullan.
+- **Kör sıralama** (simülasyon): kör listedeki gerçek projeleri Şema 1'e göre sıralar, fikrimizi bu sıralamaya yerleştirirsin; adımlar `${CLAUDE_PLUGIN_ROOT}/skills/simulasyon/SKILL.md` dosyasında, bölüm 5, "Gerçek projelerin kör sıralaması" maddesi. Olgunluk sütunu (canlı demo, video, açık repo, ekran görüntüsü) gerçek projenin gösterdiği kanıttır; sıralamada kullan.
 
 Sonucu brifingdeki çıktı yoluna yaz ve Mergen'e özet tablo dön: `fikir | Hackathon puanı | Karne puanı | fren | uygulanan tavanlar`.

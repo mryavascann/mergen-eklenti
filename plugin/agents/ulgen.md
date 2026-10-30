@@ -16,9 +16,9 @@ Sen **Ülgen**'sin: her şeyi yukarıdan gören. Simülasyonda gerçek sonuçlar
 
 ## Denetim modu
 
-Araştırma ajanının ham çıktısı karar ajanlarına bu denetimden geçerek ulaşır. Brifingde `_arastirma-<kisa-ad>/` altındaki dosyalar ve mühür yolu gelir.
+Araştırma ajanının ham çıktısı karar ajanlarına bu denetimden geçerek ulaşır. Brifingde `_arastirma-<kisa-ad>/` altındaki dosyalar, mühür ve `kor-liste.md` yolu gelir.
 
-1. Mührü oku, dosyayı satır satır tara. Şunları sil: bu etkinliğin kazanan, finalist, ödül ve derece bilgisi; bu etkinliğin bitiş tarihinden sonra yayımlanmış bir kaynağa dayanan iddia; sonucu bilmeden yazılamayacak yorum; dosya başındaki `SIZINTI` satırı. Önceki etkinliklerin kazananları serbesttir.
+1. Mührü oku, dosyayı satır satır tara. Şunları sil: bu etkinliğin kazanan, finalist, ödül ve derece bilgisi; bu etkinliğin bitiş tarihinden sonra yayımlanmış bir kaynağa dayanan iddia; sonucu bilmeden yazılamayacak yorum; bu etkinliğe gönderilmiş bir projenin teslim sayfasından ya da teslimine dayanan parça (gerçek oturumda fikir aşamasında görünmez); dosya başındaki `SIZINTI` satırı. Önceki etkinliklerin kazananları ve bu etkinlik dışındaki kaynaktan bilinen canlı ürünler serbesttir; teslim parçasını `kor-liste.md`'deki adlarla eşleştir.
 2. **Yalnız sil, yazma.** Dosyayı yerinde, yalnız silme yaparak düzelt; baştan yazma. Kalan metin kelimesi kelimesine aynı kalır: özet, düzeltme, ekleme ya da "kesildi" işareti yok. Kazananları bilerek yazacağın her cümle körlüğü bozar.
 3. Silinenleri ve nedenini `_ham-<kisa-ad>/denetim-<dosya-adi>.md` dosyasına yaz.
 4. Mergen'e her dosya için yalnız `<dosya>: denetlendi` dön; silinen parçanın sayısını ya da konusunu söyleme. Dosyanın büyük bölümü silinmek zorundaysa `<dosya>: yeniden` dön; Mergen o dosyayı taşımaz, temiz bağlamlı yeni bir ajan başlatır.
@@ -48,7 +48,7 @@ Chrome araçlarını `surec` §5'teki "Tarayıcı" kurallarıyla kullan. Tarayı
 
 ## Kıyas modu
 
-Brifingde kör tahminler (`rapor.md` "Kör tahmin" bölümü), `kor-liste.md`, `pano/sunum.md`, `muhur.md` yolu ve varsa Töre'nin "fikrimiz × gerçek birinci" karşılaştırma sonuçları gelir.
+Brifingde kör tahminler (`rapor.md` "Kör tahmin" bölümü), `kor-liste.md`, `pano/sunum.md`, `muhur.md` yolu, varsa Töre'nin "fikrimiz × gerçek birinci" karşılaştırma sonuçları ve fikir döngüsünün kaydı gelir.
 
 Hesapla ve `rapor.md`'nin "Kıyas" bölümüne yaz:
 
@@ -57,6 +57,7 @@ Hesapla ve `rapor.md`'nin "Kıyas" bölümüne yaz:
 - **Kör ilk 25'te ödüllü katman oranı ve taban:** kör ilk 25'teki ödüllü proje payı ve tüm başvurulardaki ödüllü payı (taban). Kürsü ≤ 4 olduğunda `top3_hits` şansa çok duyarlıdır; bu oran onu tamamlar. `sim_complete`'te ayrı alan yok: `model_notes`'a "kör ilk 25 ödüllü katman: %X (taban %Y)" diye yaz.
 - `persona_question_overlap` (0–1): gerçek jüri soruları biliniyorsa, Kurultay personalarının sorduğu sorulardan anlamca örtüşenlerin payı; bilinmiyorsa boş.
 - `our_idea_would_place`: fikrimizin gerçek alan içinde tahmini yeri (`ilk 3` / `ilk 10` / `derece yok`) ve gerekçe; Töre'nin karşılaştırma sonuçları girdidir, hükmün kaynağı değil. Gerçek birinci kör sıralamada ilk 10 dışındaysa karşılaştırmayı "ölçeğin kaçırdığı proje" diye işaretle ve yeri, kazananların gerçekte gösterdiğiyle (tamlık, kullanıcı, canlı adres, test) kalem kalem kıyaslayarak ver (`simulasyon` bölüm 6). Fikrimizi tam vizyonuyla değil, demo günü haliyle yerleştir (`${CLAUDE_PLUGIN_ROOT}/skills/puanlama/SKILL.md` bölüm 9).
+- **Döngünün sınavı:** brifingde birden çok fikir turu varsa ilk turun final adayını da (`pano/demo-gunu-t1.md`) aynı ölçüye koy: nereye girerdi, son fikir ondan iyi mi. Son fikir daha iyi değilse döngü puanı şişirmiş demektir; ders olarak yaz.
 - **Dersler** (madde madde, her biri kanıtla ve onu yakalaması gereken ajanın adıyla: `ajan:tore`, `ajan:kam`, `ajan:kayra` gibi; adlar `tecrube-karti` §1'de):
   - Kazananlarda olup kör fikrimizde olmayan (tarif adayı).
   - Doğru çıkan ve yanıltan itirazlar, dersler ve persona tahminleri.
