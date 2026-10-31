@@ -87,7 +87,7 @@ O projenin konusu ve platformu fikir girdisi değildir. Karneden yalnız üç ş
 Acımasız bir jüri gibi puanla. Geçmişte puanlar fazla iyimser çıktı; yeni bilgi gelince 4,60 alan fikir 3,80'e düştü.
 
 1. **Önce tanım, sonra puan.** İki şemanın her boyutu için tanım yazılıp onaylanmadan fikirlere puan verilmez. Tek istisna kalibrasyondur: Adım 3'te, onaya sunulacak tanım ve ağırlıklar önerilen halleriyle kullanılır ("önerilen" diye işaretlenir); kullanıcı tanımları değiştirirse kalibrasyon yenilenir.
-2. **Önce kalibrasyon.** Fikirlerden önce geçmiş etkinlikten üç proje iki şemayla puanlanır: birinci olan, en kalabalık kalıptan derece alamayan, sıradan bir proje. Bunlar ölçeğin çapasıdır; bir fikre birinciden yüksek puan veriliyorsa nedeni bölüm 9'a göre yazılır: fikrin demo gününde göstereceği somut kanıt.
+2. **Önce kalibrasyon.** Fikirlerden önce geçmiş etkinlikten üç proje iki şemayla puanlanır: birinci olan, en kalabalık kalıptan derece alamayan, sıradan bir proje. Bunlar ölçeğin çapasıdır; bir fikre birinciden yüksek puan veriliyorsa nedeni bölüm 9'a göre yazılır: fikrin demo gününde göstereceği somut kanıt. Kürsünün diğer iki projesi de aynı turlarda puanlanır (bölüm 10).
 3. **Önce benzer kontrolü.** Puandan önce benzeri üç yerde aranır ve fikir kartına yazılır: organizatörün geçmiş etkinlikleri, platformda bugün canlı olan ürünler, başka platformlardaki ürün ve hazır çözümler. "Arz var, kullanıcı yok" durumu da yazılır.
 4. **4 ve üstü için dayanak.** Gerekçe somut bir kaynağa, ölçüme ya da geçmiş bir kazananla karşılaştırmaya dayanmıyorsa o boyut en çok 3,5 alır.
 5. **Rakip testi.** Fikrin yaslandığı nokta en az bir rakipte de varsa şu boyutlar 3'ü geçemez: Şema 2'de "platform primitiflerinden yararlanma", Şema 1'de bu teste eşlenen ölçüt. "Hızlı" ya da "ucuz" gibi rakiplerin çoğunda olan özellik öne çıkan nokta sayılmaz; yalnız böyle bir özelliğe yaslanan fikir genel tercihlerdeki "platforma yaslanma" ŞART'ına takılır ve önerilmez.
@@ -142,7 +142,7 @@ Dil modelleri "A mı B mi" sorusunda mutlak puandan çok daha tutarlıdır. Deri
 
 Fikir bir vaattir, gerçek proje yapılmış bir üründür. İkisi aynı ölçekte doğrudan kıyaslanınca vaat kazanır, çünkü vaadin eksiği görünmez. İlk simülasyonda Töre yapılmamış final fikrimizi iki sırada da gerçek birincinin üstüne koydu; kör sıralaması da baştan sona ters çıktı.
 
-**Ne zaman:** fikrimiz gerçek ya da yapılmış projelerle aynı sıralamaya girdiğinde ya da onlarla karşılaştırıldığında. Simülasyonda kör sıralama, kendi derece tahminimiz ve "fikrimiz × gerçek birinci" karşılaştırması; fikir hunisinde bir fikre kalibrasyondaki birinciden yüksek puan verildiğinde (kural 2).
+**Ne zaman:** fikrimiz gerçek ya da yapılmış projelerle aynı sıralamaya girdiğinde ya da onlarla karşılaştırıldığında. Simülasyonda kör sıralama, kendi puanımız, kürsü kıyası (bölüm 10) ve "fikrimiz × gerçek birinci" karşılaştırması; fikir hunisinde bir fikre kalibrasyondaki birinciden yüksek puan verildiğinde (kural 2).
 
 **Kural:** iki taraf da jürinin demo gününde gördüğüyle puanlanır.
 
@@ -154,3 +154,14 @@ Fikir bir vaattir, gerçek proje yapılmış bir üründür. İkisi aynı ölçe
 - **Canlı demo adresi teslim şartı değilse puan nedeni olmaz.** Video ve açık repo zorunlu teslim öğesiyse canlı demo adresinin yokluğu S2'de (teknik yürütme, tamlık) puan kırmaz, S4'te (demo) en çok 0,5 kırar. Kör sıralamada ilk 10'a alma, ön eleme ya da eşitlik bozma kararı canlı demoya göre verilmez; asıl kanıt video, repo ve yeniden üretim komutudur. Syndicate by Maximor simülasyonunda (koşu 9a6848de) kürsüdeki 4 projenin 3'ünde canlı demo yoktu, kör ilk 10'daki canlı demosuz 6 projenin 5'i ödül aldı ve T1 birincisi canlı demo yüzünden eşitliği kaybedip 25'in dışına düştü; NTU InnovateX'te (koşu 7d327b6e) kürsünün 4/6'sı canlı demosuzdu ve ön eleme "demo yok" diye 3 ödüllüyü attı. Canlı demo teslim şartıysa yokluğu eksik teslimdir ve bu sınır uygulanmaz; Devfolio kartı 5b18fcbf bu etkinlikler için geçerlidir.
 - **Üstüne koyuyorsan kanıtını yaz.** Fikrimizi yapılmış bir projenin üstüne koyan değerlendirme, fikrimizin demo gününde göstereceği somut kanıtı (hangi ekran, hangi canlı işlem, hangi sayı) o projenin gösterdiği kanıtın karşısına yazar. Yazamıyorsa fikrimiz o projenin altındadır.
 - Kural 7'nin süre cümlesi bu kıyasta uygulanmaz: kapsamı süre belirler, çünkü karşıdaki proje de o sürede yapıldı. Doğrulanmamış bağımlılık cümlesi uygulanır.
+
+## 10. Kürsü kıyası
+
+Fikir, yapılmış geçmiş kürsüyle aynı cetvelde kıyaslanır.
+
+- **Kürsü nedir:** En yakın etkinliğin sıralı ilk üçü. Önce aynı serinin en yeni baskısı, yoksa aynı organizatör, yoksa biçimi, süresi ve kitlesi en yakın etkinlik. Kalibrasyondaki birinci kürsünün birincisidir. Sıralı üç proje yoksa en yakın etkinliklerin birincileriyle üçe tamamlanır; tamamlanamazsa bulunanlarla yapılır ve sayı yazılır. Kitle, süre ya da biçim farkı kıyas notuna girer.
+- **Aynı cetvel:** Kürsü projeleri kalibrasyonla aynı şemayla ve bölüm 5'e göre üç turda puanlanır. Daha yakın bir baskı sonradan bulunursa kürsü ve kalibrasyondaki birinci o baskıya geçer, projeleri o anda puanlanır; fikirlere verilmiş puanlar değişmez.
+- **Kıyas:** Fikrin demo günü hali (bölüm 9) kürsü projeleriyle iki sırada kıyaslanır; her sıra ayrı çağrıdır, bir çağrıda birden çok proje olabilir. Kaç değerlendiricinin çalışacağını süreç belirler (`derin`, `simulasyon`).
+- **Karar:** Proje başına `fikir`, `kürsü` ya da `belirsiz`. İki sırada aynı kararı vermeyen değerlendirici o proje için `belirsiz` sayılır (bölüm 7).
+- **Kanıt:** Bölüm 9'un "üstüne koyuyorsan kanıtını yaz" kuralı geçerlidir. Yazılamıyorsa karar `kürsü`dür.
+- **Gerekçe:** Her karar tek cümle yazar: kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor.

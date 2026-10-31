@@ -50,8 +50,8 @@ Bu kurallar Kayra'nındır; sen denetimde bunlara göre bakarsın.
 
 ## 3. Sıra
 
-1. **Fikirleri yazdır.** Kayra'yı tur modunda çağır. Brifinge: oturum klasörünün yolu, tur numarası, kullanıcının notu ve yönü ($ARGUMENTS), kenarda ve rafta olanlar, itiraz listesi (aşama süzgecinden geçmiş), önceki çalışma dosyası varsa linki, çıktı yeri (`fikirler.md` içinde "Tur N" bölümü).
-2. **Kalite denetimi (Mergen).** Kayra'nın fikirlerini kendin oku ve şu listeyle denetle: sayı ve aile çeşitliliği; her tarama yolu temsil ediliyor mu; tema sınırı; girmediğimiz alanlar; kontrast fikirler ve türleri; kısa kartların her satırı dolu mu; ŞART'lara aykırı fikir var mı; süreç sızıntısı (oylama, onay, puanlama, persona, havuz, çok ajanlı yapı fikre gerekçesiz girmiş mi; fikirler Mergen'e benziyor mu); dayanaklar kaynaklı mı. Eksik varsa somut notlarla Kayra'yı **bir kez** düzeltme modunda çağır; sonra kalan eksikleri dosyaya yazarak ilerle.
+1. **Fikirleri yazdır.** Kayra'yı tur modunda çağır. Brifinge: oturum klasörünün yolu, tur numarası, kullanıcının notu ve yönü ($ARGUMENTS), kenarda ve rafta olanlar, `pano/ders-defteri.md` (varsa), itiraz listesi (aşama süzgecinden geçmiş), önceki çalışma dosyası varsa linki, çıktı yeri (`fikirler.md` içinde "Tur N" bölümü).
+2. **Kalite denetimi (Mergen).** Kayra'nın fikirlerini kendin oku ve şu listeyle denetle: sayı ve aile çeşitliliği; her tarama yolu temsil ediliyor mu; tema sınırı; girmediğimiz alanlar; kontrast fikirler ve türleri; kısa kartların her satırı dolu mu; ŞART'lara aykırı fikir var mı; süreç sızıntısı (oylama, onay, puanlama, persona, havuz, çok ajanlı yapı fikre gerekçesiz girmiş mi; fikirler Mergen'e benziyor mu); dayanaklar kaynaklı mı; `kullanıcı` türündeki bir derse takılan fikir var mı (bölüm 5). Eksik varsa somut notlarla Kayra'yı **bir kez** düzeltme modunda çağır; sonra kalan eksikleri dosyaya yazarak ilerle.
 3. **İtiraz ön filtresi.** Kurultay'ı (`mergen:kurultay`) **itiraz modunda** çağır (`juri` bölüm 3): brifinge yalnız aşama süzgecinden geçen itirazlar ve kısa kartlar girer. Fikirleri 8'erli gruplara bölüp paralel çağırabilirsin. Kurultay dosya yazamaz: sonucu cevabından sen `pano/`ya (örn. `pano/huni<N>-itiraz-<grup>.md`) yazarsın. Sonucu tabloya yaz: `fikir | takıldığı itirazlar (kart no) | düzeltme | ikinci kontrol`. Takılan fikirleri Kayra'ya düzeltme modunda (itiraz sonuçlarıyla) gönder; somut bir tasarım değişikliğiyle düzeltilenleri bir kez daha kontrol ettir; yine takılırsa "itirazla elendi" listesine al. Bu fikirler kullanıcıya tam kart olarak gösterilmez; liste halinde, takıldığı itirazla görünür ve kullanıcı isterse geri alınır. Bu adım, kulübün elle yaptığı "jüri bunu der" elemesinin öğrenilmiş halidir.
 4. **Yabancı testi.** Kalan her fikir için Yabancı'ya (`mergen:yabanci`) **yalnız fikrin adını ve tek sahne tarifini** ver; tek cümleyi, kullanıcıyı ve diğer satırları verme. Birden çok fikri numaralı ve birbirinden bağımsız olarak tek çağrıda verebilirsin. Yabancı'nın "ne yapıyor, kimin için" anlatımını fikrin tek cümlesiyle karşılaştır: **tam**, **kısmen** ya da **uyuşmuyor**. Uyuşmuyorsa Kayra'ya tek sahne tarifini **bir kez** yeniden yazdır ve yeniden dene. Sonuç `puanlama` kural 8'e göre işlenir: "uyuşmuyor" kalan fikir anlatılabilirlik ŞART'ına takılır.
 5. **Benzer kontrolü.** Yankı'yı (`mergen:yanki`) çağır: her fikir için üç yerde benzer arasın. Fikirleri 4–5'lik gruplar halinde paralel Yankı çağrılarına bölebilirsin; her grup kendi dosyasına yazar: `pano/huni<N>-yanki-<grup>.md`.
@@ -62,7 +62,8 @@ Bu kurallar Kayra'nındır; sen denetimde bunlara göre bakarsın.
    - Jokerin puan tablosunda ve kartında `joker · fren: <boyut> <puan>` bayrağı durur. Bayrak Kurultay brifingine girmez; personalar puan görmez (`juri` bölüm 2).
    - Fren derin analizde ve final seçiminde geçerli kalır; jüri sonucu freni aşmayı haklı çıkarıyorsa gerekçesi `puanlama` bölüm 6'ya göre yazılır.
 8. **Tam kartlar.** Hackathon puanına göre ilk 8 fikrin ve Kurultay'a giden jokerin kartını Kayra'ya tam kart modunda genişlettir; puanları, itiraz, Yabancı, benzer ve jüri sonuçlarını kartlara sen işle.
-9. **Dosya ve durak.** Dosyanın 13. bölümünü bu turla güncelle; `durum.md`'yi güncelle; durak mesajını yaz.
+9. **Kürsü ön kıyası.** Hackathon puanına göre ilk 3 fikrin demo günü halini Töre'yle kürsü projelerine karşı iki sırada kıyasla (`puanlama` bölüm 10). Demo günü paragrafını sen yaz, iki çağrıya aynısı gider. Proje, Töre iki sırada da `fikir` derse geçilmiş sayılır; tam protokol derin analizdedir (`derin`). Cümleleri ders defterine yaz, kürsüyü geçemeyen fikirleri durakta söyle.
+10. **Dosya ve durak.** Ders defterini güncelle (bölüm 5); dosyanın 13. bölümünü bu turla güncelle; `durum.md`'yi güncelle; durak mesajını yaz.
 
 ## 4. Çıktı (dosyada)
 
@@ -76,14 +77,24 @@ Bu kurallar Kayra'nındır; sen denetimde bunlara göre bakarsın.
 8. **Ortak iskelet:** üst sıradaki fikirlerin paylaştığı parçalar. Kurallar değişirse fikir değişir, iskelet kalır.
 9. **Turun önerisi:** derin analiz için 3 fikir, mümkünse üç ayrı aileden; "neden bu üçü, neden diğerleri değil".
 
-## 5. Kullanıcının elemelerinden öğrenmek
+## 5. Ders defteri: kullanıcıdan ve elemelerden öğrenmek
 
-Bu, itiraz kütüphanesinin büyüme yoludur; atlama.
+Bu, huninin hafızası ve itiraz kütüphanesinin büyüme yoludur; atlama.
 
 - Kullanıcı bir fikri bıraktığında ("bunu ele", "jüri bunu sevmez") nedenini tek cümleyle yaz ya da kısaca sor.
 - Neden genelleştirilebiliyorsa (başka fikirlere de sorulabilecekse) onu evet/hayır test sorusuna çevir ve `durum.md`'deki "Oturum itirazları"na ekle. Bu turdan itibaren ön filtrede kullan.
 - Oturumun sonunda (ya da kullanıcı isterse hemen) bu itirazları `tecrube-karti` skill'ine göre `veto` kartı olarak öner; onay gelirse `card_submit` ile gönder.
 - Aynısını olumlu kararlar için de yap: kullanıcı bir fikre "bunu kullanırım", "ekipler bunu ister" dediğinde nedenini tek cümleyle `durum.md`'deki "Oturum itirazları"nın altına "Beğenme nedenleri" olarak yaz. Kulüpteki ürün sezgisi buradan birikir; genelleştirilebilenleri oturum sonunda `lesson` ya da `recipe` kartı olarak öner.
+
+**`pano/ders-defteri.md`.** Mergen her turun sonunda günceller, Kayra her yeni turda okur. Kullanıcı bir fikri tartışırken neden söylerse o anda yazılır, tur sonunu beklemez. Biçim: `ders | tür | kaynak (fikir, kim) | kaç kez | yeni fikirde neyi değiştirir`.
+
+- **Tür:** `kullanıcı` (kullanıcının "şu yüzden olmaz" dediği), `beğeni` (kullanıcının beğenme nedeni), `jüri`, `puan`, `kürsü`, `işe yarayan`.
+- **`kullanıcı` dersi bağlayıcıdır.** Aynı nedene takılan yeni fikir yazılmaz; Mergen denetimde geri çevirir. Kullanıcı kaldırana kadar geçerlidir. Katılmıyorsan kullanıcıya söyle, defterden kendin silme.
+- **Diğer dersler yol gösterir, veto değildir.** Kayra gözetir ama cesur fikri sulandırmaz.
+- **Birikimlidir.** Önceki turların dersi silinmez; aynı ders tekrar edince sayacı artar. Yalnız final adayı değil, turdaki bütün fikirlerin Töre gerekçeleri, Kurultay soruları ve kürsü kıyası okunur.
+- **Fikirde karşılığı olmayan gerekçe ders değildir.** "Yeni fikirde neyi değiştirir" sütunu yazılamıyorsa satır girmez. Fikir aşamasında hiçbir fikrin kapatamayacağı eksik (bağımsız kullanıcı, gerçek ödeme) ölçeğin sabitidir. SOON Fall 2026'da (koşu 50d9f45b) Kayra'ya her tur bu gerekçe gitti, en düşük boyutlar 12 turda hiç yükselmedi.
+- **Puan yazmaz.** Defterde puan, derece ve eşik bulunmaz; Kayra sayıyı görürse Töre'nin sevdiğini yazmaya başlar.
+- **Karta girmez.** Kayra hangi fikrin hangi derse cevap verdiğini `pano/huni<N>-dersler.md`'ye (geliştirmede `-gelistirme` ekiyle) yazar. Mergen denetimde okur, gerçek oturumda kullanıcıya söyler; Töre, Kurultay ve Yabancı görmez, böylece puan bağımsız kalır.
 
 ## 6. Sonraki turlar
 
@@ -93,8 +104,10 @@ Huni tek turda bitmek zorunda değil. Kullanıcının cevabına göre:
 - Bırakılanları **rafa kaldır**; silme, nedenini yaz (ve bölüm 5'i uygula).
 - İstenen yönde yeni taramayı Kayra'ya yaptır; yeni fikirler de aynı sıradan geçer ve önceki turlarla aynı ölçüyle puanlanır.
 - Kullanıcı bir fikrin belirli bir yanını beğendiğini söylerse (altındaki teknik, kullanıcısı, mekaniği) Kayra'yı varyant modunda çağır: o yanı sabit tutup gerisini değiştiren 3–5 varyant.
+- **Geliştirme:** Yeni tur yalnız yeni alan taraması değildir: en iyi iki fikrin zayıf yanını defterdeki derslerle düzeltecek geliştirmeyi de öner (Kayra, geliştirme modu). Yönü kullanıcı seçer. Geliştirmenin yeni fikir sayılması için kullanıcı, çekirdek döngü ya da primitiften en az biri değişir (`puanlama` kural 6); ad, pitch, anlatım ya da yalnız demo kapsamı değişikliği sayılmaz.
 - Kullanıcı bir fikri anlamadığını söylerse sıfırdan anlat ve açıklamayı dosyaya ayrı bölüm olarak ekle.
 - Her turun sonunda bütün fikirlerin güncel sıralamasını tek tabloda ver.
+- **Kalite tokenden önce gelir.** Gerçek oturumda tur sınırı yoktur ve `simulasyon` skill'indeki kısaltmalar uygulanmaz. Fikir ilk 3 için kürsüyü geçmelidir (`derin`, Kürsü kıyası); geçmiyorsa bunu açıkça söyle ve taramayı öner.
 
 Kullanıcı "derin analize şu fikirlerle geç" diyene ya da yalnız "devam" yazana kadar huni açık kalır. "Devam" yazarsa önerdiğin fikirlerle derin analize (`derin` skill'i) geçilir.
 

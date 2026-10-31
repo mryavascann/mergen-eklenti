@@ -90,7 +90,7 @@ Börü bitince skor kartını sen hazırla:
 1. **Alan profili:** altı satır, kaynaklarıyla.
 2. **Şema 1:** ölçütler, ağırlıklar, resmi ölçüt eşleme tablosu (`puanlama` bölüm 1; hiçbir ölçüt düşmez), her ölçüt için fikir aşaması sorusu, "5 puan" ve "1 puan" tanımı, tavanların eşlendiği ölçütler (rakip, görülmüşlük, anlatılabilirlik), bonus sütunları.
 3. **Şema 2 (kulüp karnesi şeması):** sekiz boyut, bu hackathona uyarlanmış tanımlar, önerilen ağırlıklar ve gerekçeleri. Ağırlık önerirken havuzdan gelen karnenin en zayıf iki boyutuna bak.
-4. **Kalibrasyon:** geçmiş etkinlikten üç proje (birinci, en kalabalık kalıptan derece alamayan, sıradan). Töre'yi (`tore`, kalibrasyon modu) önerilen tanım ve ağırlıklarla, `puanlama` bölüm 5'e göre üç paralel turda çağır: `puanlar/kalibrasyon-tur1.md`, `-tur2.md`, `-tur3.md`. Orta değer ve aralıkla tabloya yaz.
+4. **Kalibrasyon:** geçmiş etkinlikten üç proje (birinci, en kalabalık kalıptan derece alamayan, sıradan). Töre'yi (`tore`, kalibrasyon modu) önerilen tanım ve ağırlıklarla, `puanlama` bölüm 5'e göre üç paralel turda çağır: `puanlar/kalibrasyon-tur1.md`, `-tur2.md`, `-tur3.md`. Orta değer ve aralıkla tabloya yaz. Birinci, kürsü etkinliğinden seçilir; aynı turlarda kürsünün diğer iki projesini de puanlat (`puanlama` bölüm 10).
 5. **Tercih listesi:** genel tercihler ve bu hackathona özel tercihler, ŞART ve TERCİH olarak. Araştırma bir tercihi sorgulatıyorsa söyle.
 6. **Persona seçimi:** Kurultay'da kullanılacak üç persona ve neden (`juri` bölüm 2).
 7. **İtiraz özeti:** bu hackathonda özellikle geçerli olacak itirazlar (havuzdan) ve bu oturumda görülen yeni itiraz adayları.

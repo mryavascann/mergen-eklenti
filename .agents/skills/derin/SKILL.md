@@ -39,10 +39,14 @@ Her fikrin analizi bitince dosyanın 15. bölümüne ekle; hepsi bitmeden yayın
 
 Bütün finalist çiftleri için `puanlama` bölüm 7'yi uygula: her çift iki sırayla, her sırada üç jüri personası (Kurultay, karşılaştırma modu) ve Töre (karşılaştırma modu) ayrı ayrı "hangisi ilk 3'e daha yakın" diye karar verir. Galibiyet tablosunu yaz. İkili sıralama puan sıralamasıyla çelişiyorsa bunu açıkça söyle.
 
+### Kürsü kıyası
+
+Her finalist için `puanlama` bölüm 10'u uygula: her kürsü projesiyle iki sırada Töre ve üç persona. Proje, dört değerlendiricinin en az üçü iki sırada da `fikir` derse geçilmiş sayılır. Fikir en az iki projeyi (kürsüde tek proje varsa onu) geçmeden "ilk 3'e girer" denmez. Son kararı kullanıcı verir; fikrin kürsüyü geçmediğini açıkça söyle. Hiçbir finalist geçemediyse huniye dönüp yeni tur öner (`fikir` bölüm 6). "Kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor" cümlelerini ders defterine işle (`fikir` bölüm 5).
+
 ### Sonunda
 
-- Fikirleri yan yana koyan tek tablo: iki puan (orta değer ve aralık), fren, jüri kararları, ikili karşılaştırma galibiyetleri, Yabancı testi.
-- **Dürüst görüşün:** hangisini seçerdin, neden. Puan ya da ikili sıralamayla ayrışıyorsa nedenini yaz. Örnek: bir fikri kullanıcıya anlatmak uzun açıklama gerektirdiyse karar verenlere de anlatmak zor olacaktır.
+- Fikirleri yan yana koyan tek tablo: iki puan (orta değer ve aralık), fren, jüri kararları, ikili karşılaştırma galibiyetleri, kürsü kıyası, Yabancı testi.
+- **Dürüst görüşün:** hangisini seçerdin, neden. Kürsüyü geçmeyen fikre "ilk 3'e girer" deme. Puan ya da ikili sıralamayla ayrışıyorsa nedenini yaz. Örnek: bir fikri kullanıcıya anlatmak uzun açıklama gerektirdiyse karar verenlere de anlatmak zor olacaktır.
 
 **Durakta istenecekler:** Finale hangi fikirle gidileceği; anlaşılmayan yerler; puan itirazları.
 

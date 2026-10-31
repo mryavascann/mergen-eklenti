@@ -54,7 +54,7 @@ Her hackathon oturumu, kullanıcının çalışma dizininde tek bir klasörde ya
 ```
 mergen/<etkinlik-kisa-adi>/
 ├── durum.md          # oturumun hafızası: etkinlik bilgisi, adım durumu, onaylar, itirazlar, kullanılan kartlar
-├── pano/             # ilan panosu: ajanların bulguları, adım ve ajan adıyla
+├── pano/             # ilan panosu: ajanların bulguları, adım ve ajan adıyla; ders-defteri.md fikir hunisinin hafızası
 ├── devir/            # devir notları
 ├── fikirler.md       # fikir kartları ve turlar
 ├── puanlar.md        # birleştirilmiş puan tabloları ve yeniden puanlama notları
