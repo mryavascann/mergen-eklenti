@@ -92,6 +92,7 @@ Acımasız bir jüri gibi puanla. Geçmişte puanlar fazla iyimser çıktı; yen
 4. **4 ve üstü için dayanak.** Gerekçe somut bir kaynağa, ölçüme ya da geçmiş bir kazananla karşılaştırmaya dayanmıyorsa o boyut en çok 3,5 alır.
 5. **Rakip testi.** Fikrin yaslandığı nokta en az bir rakipte de varsa şu boyutlar 3'ü geçemez: Şema 2'de "platform primitiflerinden yararlanma", Şema 1'de bu teste eşlenen ölçüt. "Hızlı" ya da "ucuz" gibi rakiplerin çoğunda olan özellik öne çıkan nokta sayılmaz; yalnız böyle bir özelliğe yaslanan fikir genel tercihlerdeki "platforma yaslanma" ŞART'ına takılır ve önerilmez.
 6. **Görülmüşlük testi.** Ölçü üç şeydir: kullanıcı, çekirdek döngü, primitif. Görülmüş bir projeyle ikisi aynıysa şu boyutlar en çok 2 alır: Şema 2'de "rakiplerden ayrışma", Şema 1'de eşlenen ölçüt. Kalabalık bir kalıptaysa en çok 3. Üçü de aynıysa fikir kopyadır ve önerilmez.
+   - **Kapsam: "görülmüş" kimin önünde?** Tavanlar ve engeller aynı ölçüyü kullanmaz. (a) *Rakip testi* (kural 5) dünyadaki eşdeğer işi karşılayan her rakibe bakar; hedef jüri şartı yoktur. (b) *Görülmüşlük testi*, "kopya" etiketi, kalabalık kalıp tavanı, Şema 2'de "rakiplerden ayrışma" ve Şema 1'de eşlenen ölçütün tavanı ile üç eksenli önerme engeli yalnız hedef jürinin ya da karar vericilerin önüne gerçekten çıkmış projeyi sayar; başka etkinlikte ya da dünyada görülmüş olmak "benzeri var" notudur, bu tavanı doğurmaz (`surec` §10). (c) Araştırmacının "benzer/kopya" etiketi bir bulgudur, hüküm değil: tavan için (b)'deki şart kanıtlanmalıdır. Gerekçede hangi tavanın hangi kapsamla uygulandığını yaz.
    - **Tavanın kendi sınavı.** Görülmüşlük, kalabalık kalıp ya da ayrışma tavanı uygulanan her sıralamada (özellikle simülasyonun kör sıralaması) sıralamayı bir de tavansız hesapla; ilk 10'u iki sıranın birleşiminden seç ve hangi projenin yalnız birinde girdiğini yaz. Tavan körü körüne ödül elemesi olmasın: iki simülasyonda tavan yüzünden kürsü projeleri aşağı düştü (Request Network benzerliğiyle kör 25'te 23. kalan birinci).
    - **Kalabalık kalıp hükmü** bu etkinliğin karar vericilerinin alanından kurulur, başka etkinliklerin ödül oranından değil (`surec` §10).
    - **Tamamlanmış ödeme-aracı kalıpları** (fatura, emanet, tüccar aracı gibi): "en çok 2" tavanı yalnız kullanıcı, çekirdek döngü ve primitifin üçü de aynıysa uygulanır; ikisi aynıysa kalabalık kalıp tavanı (3) geçerli kalır.
@@ -165,3 +166,12 @@ Fikir, yapılmış geçmiş kürsüyle aynı cetvelde kıyaslanır.
 - **Karar:** Proje başına `fikir`, `kürsü` ya da `belirsiz`. İki sırada aynı kararı vermeyen değerlendirici o proje için `belirsiz` sayılır (bölüm 7).
 - **Kanıt:** Bölüm 9'un "üstüne koyuyorsan kanıtını yaz" kuralı geçerlidir. Yazılamıyorsa karar `kürsü`dür.
 - **Gerekçe:** Her karar tek cümle yazar: kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor.
+
+## 11. Geçmiş alan sıralaması
+
+Fikrin yeri, geçmiş baskının bütün alanı içinde ve gerçek projelerin kör sıralamasıyla aynı yöntemle bulunur.
+
+- **Liste:** Kürsü baskısının (bölüm 10) sunulan projeleri; ödül, rozet, derece ve sıralama bilgisi olmadan, karışık sırayla. Her satırda ad, tek satır açıklama, etiketler ve olgunluk (canlı demo, video, açık repo, ekran görüntüsü).
+- **Sıralama:** Listeyi Şema 1'e göre sırala, en güçlü 10'u yaz. Proje çoksa önce kısa açıklamalardan ve olgunluktan 40'a indir; yalnız zorunlu teslim öğesinin eksikliği kesin elemedir. Görülmüşlük, kalabalık ya da ayrışma tavanı uyguluyorsan sırayı bir de tavansız kur, ilk 10'u ikisinin birleşiminden seç (kural 6). Bu baskının sonucunu hatırlıyorsan yaz; o sıralama sayılmaz.
+- **Yerleştirme:** Verilen ilk 10'un sırasını değiştirmeden yalnız fikrin demo günü halini (bölüm 9) içine yerleştir. Bir projenin üstüne koyuyorsan fikrin göstereceği somut kanıtı o projenin olgunluk satırının karşısına yaz; yazamıyorsan altına koy. Arşivde görülmeyen işlev ne çalıştı ne çalışmadı sayılır.
+- **Gerekçe:** Fikrin hemen üstündeki ve altındaki proje için tek cümle: o proje neyi gösteriyor, fikrimiz neyi göstermiyor.

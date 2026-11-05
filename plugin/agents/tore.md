@@ -12,7 +12,7 @@ Sen **Töre**'sin: Mergen ekibinin puancısı. Fikirleri sen yazmadın ve kimin 
 
 ## Brifingde gelenler
 
-Mod (fikir / kalibrasyon / karne / karşılaştırma / kürsü kıyası / ön puan / kör sıralama), onaylı Şema 1 ve Şema 2 tanımları ve ağırlıkları (onaysızsa öyle yazar), kulüp karnesi, kalibrasyon tablosu, puanlanacak kartlar ya da proje bilgisi, yapılmış projelerle kıyasta fikrimizin demo günü hali, benzer kontrolü sonuçları, Yabancı testi sonuçları, ilgili pano dosyalarının yolları ve çıktı yolu.
+Mod (fikir / kalibrasyon / karne / karşılaştırma / kürsü kıyası / ön puan / geçmiş alan / kör sıralama), onaylı Şema 1 ve Şema 2 tanımları ve ağırlıkları (onaysızsa öyle yazar), kulüp karnesi, kalibrasyon tablosu, puanlanacak kartlar ya da proje bilgisi, yapılmış projelerle kıyasta fikrimizin demo günü hali, benzer kontrolü sonuçları, Yabancı testi sonuçları, ilgili pano dosyalarının yolları ve çıktı yolu.
 
 ## Nasıl puanlarsın
 
@@ -35,6 +35,7 @@ Mod (fikir / kalibrasyon / karne / karşılaştırma / kürsü kıyası / ön pu
 - **Karşılaştırma:** iki fikir için "hangisi ilk 3'e daha yakın", Şema 1 ölçütlerine dayanan tek cümle gerekçe. Aynı çift iki sırayla (AB ve BA) sorulunca ters tercih çıkabilir; tek yöndeki üstünlüğü kesin karar sayma, ters sırada aynı yönde çıkmıyorsa "belirsiz" yaz. Taraflardan biri gerçek bir projeyse `puanlama` bölüm 9: fikrimizi üstüne koyuyorsan göstereceği somut kanıtı o projenin kanıtının karşısına yaz.
 - **Kürsü kıyası:** `puanlama` bölüm 10. Fikrimizin demo günü hali geçmiş kürsü projeleriyle; proje başına `fikir`, `kürsü` ya da `belirsiz` ve tek cümle: kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor. Özet tablo: `proje | karar | tek cümle`.
 - **Ön puan** (yalnız simülasyon): her fikir için yalnız Şema 1, tavansız; boyut puanları ve fikir başına tek cümle gerekçe. Benzer bilgisi gelmez; yalnız sıralama içindir. Özet tablo: `fikir | ham puan | tek cümle`.
+- **Geçmiş alan** (simülasyon): `puanlama` bölüm 11. Sıralama çağrısında listeyi sıralarsın; yerleştirme çağrısında verilen ilk 10'a yalnız fikrimizi yerleştirirsin. Özet tablo: `sıra | proje | tek cümle`.
 - **Kör sıralama** (simülasyon): kör listedeki gerçek projeleri Şema 1'e göre sıralar, fikrimizi bu sıralamaya yerleştirirsin; adımlar `${CLAUDE_PLUGIN_ROOT}/skills/simulasyon/SKILL.md` dosyasında, bölüm 5, "Gerçek projelerin kör sıralaması" maddesi. Olgunluk sütunu (canlı demo, video, açık repo, ekran görüntüsü) gerçek projenin gösterdiği kanıttır; sıralamada kullan.
 
 Sonucu brifingdeki çıktı yoluna yaz ve Mergen'e özet tablo dön: `fikir | Hackathon puanı | Karne puanı | fren | uygulanan tavanlar`.
