@@ -88,7 +88,7 @@ Bu, huninin hafızası ve itiraz kütüphanesinin büyüme yoludur; atlama.
 
 **`pano/ders-defteri.md`.** Mergen her turun sonunda günceller, Kayra her yeni turda okur. Kullanıcı bir fikri tartışırken neden söylerse o anda yazılır, tur sonunu beklemez. Biçim: `ders | tür | kaynak (fikir, kim) | kaç kez | yeni fikirde neyi değiştirir`.
 
-- **Tür:** `kullanıcı` (kullanıcının "şu yüzden olmaz" dediği), `beğeni` (kullanıcının beğenme nedeni), `jüri`, `puan`, `kürsü`, `işe yarayan`.
+- **Tür:** `kullanıcı` (kullanıcının "şu yüzden olmaz" dediği), `beğeni` (kullanıcının beğenme nedeni), `jüri`, `puan`, `kürsü`, `alan` (simülasyonun kör eklemesinde fikrin üstünde kalan gerçek projenin gösterdiği), `işe yarayan`.
 - **`kullanıcı` dersi bağlayıcıdır.** Aynı nedene takılan yeni fikir yazılmaz; Mergen denetimde geri çevirir. Kullanıcı kaldırana kadar geçerlidir. Katılmıyorsan kullanıcıya söyle, defterden kendin silme.
 - **Diğer dersler yol gösterir, veto değildir.** Kayra gözetir ama cesur fikri sulandırmaz.
 - **Birikimlidir.** Önceki turların dersi silinmez; aynı ders tekrar edince sayacı artar. Yalnız final adayı değil, turdaki bütün fikirlerin Töre gerekçeleri, Kurultay soruları ve kürsü kıyası okunur.

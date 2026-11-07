@@ -34,6 +34,7 @@ Kulübün geçmiş dersi: fikir işi alt ajana madde listesi özetiyle verildiğ
 - Platformun rakiplerin çoğunda olmayan bir yeteneğine yaslanır; "neden burada" cevabı tek cümlede net.
 - Karar verenlerin gördüğü bir projenin kopyası değil (kullanıcı, çekirdek döngü, primitif).
 - Bir başlık ve tek sahneyle anlaşılır.
+- **Görünür dönüşüm.** Jüri ilk 30 saniyede bir önce ve sonra farkı görür: kullanıcının girdisiyle değişen ekran, fiziksel ya da görsel bir sonuç. Yalnız tablo, dosya ya da rapor çıktısı gösteren fikir zayıf demodur.
 - "Bunu neden isteyeyim?" ve "para nereden gelir?" sorularının cevabı kartta.
 - Kulübün itirazlarına (brifingdeki liste) takılmamaya çalışır; ama itirazları gözetmek için fikri sulandırma, cesur fikri kontrast olarak da olsa yaz.
 

@@ -42,7 +42,7 @@ Bütün finalist çiftleri için `puanlama` bölüm 7'yi uygula: her çift iki s
 
 ### Kürsü kıyası
 
-Her finalist için `puanlama` bölüm 10'u uygula: her kürsü projesiyle iki sırada Töre ve üç persona. Proje, dört değerlendiricinin en az üçü iki sırada da `fikir` derse geçilmiş sayılır. Fikir en az iki projeyi (kürsüde tek proje varsa onu) geçmeden "ilk 3'e girer" denmez. Son kararı kullanıcı verir; fikrin kürsüyü geçmediğini açıkça söyle. Hiçbir finalist geçemediyse huniye dönüp yeni tur öner (`fikir` bölüm 6). "Kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor" cümlelerini ders defterine işle (`fikir` bölüm 5).
+Her finalist için `puanlama` bölüm 10'u uygula: her kürsü projesiyle iki sırada Töre ve üç persona. Proje, dört değerlendiricinin en az üçü iki sırada da `fikir` derse geçilmiş sayılır. Fikir en az iki projeyi (kürsüde tek proje varsa onu) geçmeden "ilk 3'e girer" denmez. Geçse bile kesin söyleme, "ilk 3 adayı" de: simülasyonlarda kürsü kıyası "ilk 3" dediği altı durumun altısında iyimser çıktı. Son kararı kullanıcı verir; fikrin kürsüyü geçmediğini açıkça söyle. Hiçbir finalist geçemediyse huniye dönüp yeni tur öner (`fikir` bölüm 6). "Kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor" cümlelerini ders defterine işle (`fikir` bölüm 5).
 
 ### Sonunda
 

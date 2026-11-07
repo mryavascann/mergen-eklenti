@@ -161,16 +161,18 @@ Fikir, yapılmış geçmiş kürsüyle aynı cetvelde kıyaslanır.
 
 - **Kürsü nedir:** En yakın etkinliğin sıralı ilk üçü. Önce aynı serinin en yeni baskısı, yoksa aynı organizatör, yoksa biçimi, süresi ve kitlesi en yakın etkinlik. Kalibrasyondaki birinci kürsünün birincisidir. Sıralı üç proje yoksa en yakın etkinliklerin birincileriyle üçe tamamlanır; tamamlanamazsa bulunanlarla yapılır ve sayı yazılır. Kitle, süre ya da biçim farkı kıyas notuna girer.
 - **Aynı cetvel:** Kürsü projeleri kalibrasyonla aynı şemayla ve bölüm 5'e göre üç turda puanlanır. Daha yakın bir baskı sonradan bulunursa kürsü ve kalibrasyondaki birinci o baskıya geçer, projeleri o anda puanlanır; fikirlere verilmiş puanlar değişmez.
-- **Kıyas:** Fikrin demo günü hali (bölüm 9) kürsü projeleriyle iki sırada kıyaslanır; her sıra ayrı çağrıdır, bir çağrıda birden çok proje olabilir. Kaç değerlendiricinin çalışacağını süreç belirler (`derin`, `simulasyon`).
+- **Kıyas:** Fikrin demo günü hali (bölüm 9) kürsü projeleriyle iki sırada kıyaslanır; her sıra ayrı çağrıdır, bir çağrıda birden çok proje olabilir. Kaç değerlendiricinin çalışacağını süreç belirler (`derin`).
 - **Karar:** Proje başına `fikir`, `kürsü` ya da `belirsiz`. İki sırada aynı kararı vermeyen değerlendirici o proje için `belirsiz` sayılır (bölüm 7).
 - **Kanıt:** Bölüm 9'un "üstüne koyuyorsan kanıtını yaz" kuralı geçerlidir. Yazılamıyorsa karar `kürsü`dür.
 - **Gerekçe:** Her karar tek cümle yazar: kürsü projesi neyi gösteriyor, fikrimiz neyi göstermiyor.
 
-## 11. Geçmiş alan sıralaması
+## 11. Alan sıralaması
 
-Fikrin yeri, geçmiş baskının bütün alanı içinde ve gerçek projelerin kör sıralamasıyla aynı yöntemle bulunur.
+Bir proje alanı bu yolla sıralanır. Listedeki her satır bir teslimdir; hepsi bölüm 9'daki gerçek proje kurallarıyla okunur: yaptığı ve gösterdiğiyle, kanıtı olmayan iddia puan getirmez.
 
-- **Liste:** Kürsü baskısının (bölüm 10) sunulan projeleri; ödül, rozet, derece ve sıralama bilgisi olmadan, karışık sırayla. Her satırda ad, tek satır açıklama, etiketler ve olgunluk (canlı demo, video, açık repo, ekran görüntüsü).
-- **Sıralama:** Listeyi Şema 1'e göre sırala, en güçlü 10'u yaz. Proje çoksa önce kısa açıklamalardan ve olgunluktan 40'a indir; yalnız zorunlu teslim öğesinin eksikliği kesin elemedir. Görülmüşlük, kalabalık ya da ayrışma tavanı uyguluyorsan sırayı bir de tavansız kur, ilk 10'u ikisinin birleşiminden seç (kural 6). Bu baskının sonucunu hatırlıyorsan yaz; o sıralama sayılmaz.
-- **Yerleştirme:** Verilen ilk 10'un sırasını değiştirmeden yalnız fikrin demo günü halini (bölüm 9) içine yerleştir. Bir projenin üstüne koyuyorsan fikrin göstereceği somut kanıtı o projenin olgunluk satırının karşısına yaz; yazamıyorsan altına koy. Arşivde görülmeyen işlev ne çalıştı ne çalışmadı sayılır.
-- **Gerekçe:** Fikrin hemen üstündeki ve altındaki proje için tek cümle: o proje neyi gösteriyor, fikrimiz neyi göstermiyor.
+- **Tam metin:** Projeler tam teslim metni ve olgunluk satırıyla okunur, yalnız kısa açıklamayla değil. Kesin eleme yalnız zorunlu teslim öğesinin eksikliğidir.
+- **Küçük alan (en çok 40 satır):** Bütün liste tek çağrıda sıralanır.
+- **Orta alan (41–150 satır):** Liste rastgele 25'er satırlık gruplara bölünür; her grup ayrı çağrıda sıralanır ve ilk 10'u çıkar. Gruplardan çıkanlar birlikte sıralanır.
+- **Büyük alan (150'den fazla):** Önce tek çağrıda kısa açıklama ve olgunlukla 150'ye inilir, sonra orta alan gibi sürer. Bu kesimde kalan her satır kayıtta tutulur.
+- **Çağrının çıktısı:** Şema 1'e göre en güçlü K satır; K brifingde yazar, yazmıyorsa 10. Grup çağrısında K her zaman 10'dur. Her satır için tek cümle: neyi gösteriyor, onu altındakinden ne ayırıyor. Özet tablo: `sıra | proje | tek cümle`. Görülmüşlük, kalabalık ya da ayrışma tavanı uyguluyorsan sırayı bir de tavansız kur, ilk K'yı ikisinin birleşiminden seç (kural 6). Bu alanın sonucunu hatırlıyorsan yaz; o sıralama sayılmaz.
+- **İki sıra:** Son sıralama iki bağımsız çağrıda yapılır, ikincisinde liste ters sırada. Birleştirme ortalama yerle yapılır: yalnız birinde geçen satır öbüründe K+1. sayılır; eşitlikte iki çağrıdan iyi olan yer, o da eşitse ad sırası bozar.
