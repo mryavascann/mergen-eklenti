@@ -170,7 +170,9 @@ Fikir, yapılmış geçmiş kürsüyle aynı cetvelde kıyaslanır.
 
 Bir proje alanı bu yolla sıralanır. Listedeki her satır bir teslimdir; hepsi bölüm 9'daki gerçek proje kurallarıyla okunur: yaptığı ve gösterdiğiyle, kanıtı olmayan iddia puan getirmez.
 
-- **Tam metin:** Projeler tam teslim metni ve olgunluk satırıyla okunur, yalnız kısa açıklamayla değil. Kesin eleme yalnız zorunlu teslim öğesinin eksikliğidir.
+- **Tam metin:** Projeler tam teslim metni (brifingde okuma kopyası verildiyse o) ve olgunluk satırıyla okunur, yalnız kısa açıklamayla değil. Kesin eleme yalnız zorunlu teslim öğesinin eksikliğidir.
+- **Uzunluk kanıt değildir:** Daha uzun, daha ayrıntılı ya da daha çok sayı ve test anlatan metin, aynı ürünü daha iyi yapmış sayılmaz; jüri ürünü demosundan tanır, metninin uzunluğundan değil. Satırları anlattıkları ürünle karşılaştır: kullanıcının işi, demoda görülen an, çalışan bütün.
+- **Jüri okuması:** Brifingde `pano/juri-okumasi.md` varsa Şema 1'i onunla oku. Kurallar bu etkinliğin jürisinin geçmiş kararlarından çıkarılmıştır ve Şema 1'in hangi ölçütünde neye ne kadar bakılacağını söyler; ölçütlerin yerini almaz.
 - **Küçük alan (en çok 40 satır):** Bütün liste tek çağrıda sıralanır.
 - **Orta alan (41–150 satır):** Liste rastgele 25'er satırlık gruplara bölünür; her grup ayrı çağrıda sıralanır ve ilk 10'u çıkar. Gruplardan çıkanlar birlikte sıralanır.
 - **Büyük alan (150'den fazla):** Önce tek çağrıda kısa açıklama ve olgunlukla 150'ye inilir, sonra orta alan gibi sürer. Bu kesimde kalan her satır kayıtta tutulur.
