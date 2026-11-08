@@ -35,6 +35,7 @@ Brifingde etkinlik adı, linki ve klasör yolu gelir.
    - Olgunluk, ölçüm ve zorunlu araç sütunlarını tam teslim metninden üret, kesik özetten değil; kesik metinde göremediğini "yok" değil `bilinmiyor` yaz. Zorunlu araç için üç eksen: kullanım yeri (yalnız inşa / çalışma düzlemi), orkestratörün kendi kararı var mı, saha notu var mı.
    - Yalnız projenin kendi tesliminden al: teslim sayfasındaki bağlantılar ve medya. Bağlantıların kendisini yazma, yalnız var/yok; bağlantılarda ve README'lerde sonradan eklenmiş ödül notları olabilir. Sonuç bilgisinden (ödül, oy, rozet, öne çıkarma, sıralama) bu sütuna hiçbir şey girmez.
    - Her projeye aynı yoldan ve aynı özenle bak; kazananları bildiğin için onlara daha çok bakma. Göremediğin değere `bilinmiyor` yaz.
+   - **Her gövde aynı kalıptadır:** teslimin kendi metni ve olgunluk (kanıt notları dahil) dışında bölüm ekleme; ölçüm sınırı, yorum ya da uyarı yazma, teslimdeki sayıları ve iddiaları Töre okur. Alternatif teslim yolu ve doğrulama sınırı gibi notlar olgunluk bölümünde o ortamın notu olarak ya da Mergen'e dönüşte durur, ayrı bölüm olarak değil. Yalnız bazı gövdelere eklenen not, kazananlara daha çok bakmanın bir yoludur: kürsüyü bildiğin modda o not kürsüde toplanır.
 3. **`muhur.md`** (oturum klasörünün dışında, `_ham-<kisa-ad>/` altında; ham galeri ve sonuç dosyaları da orada kalır, `simulasyon` Körlük kuralları): gerçek sonuçlar: kazananlar ve dereceleri (track'lerle), varsa jüri yorumları ve sunumlarda sorulan sorular, kaynak linkleri, sonuçların açıklandığı tarih.
 4. Mergen'e **yalnız** şunu dön: proje sayısı, kör listeye kaç proje yazıldığı, olgunluk sütununun kaç projede `bilinmiyor` kaldığı, sonuçların hangi kaynaktan alındığı (link vermeden "galeri" / "duyuru" gibi; Chrome'la okuduysan "(Chrome)"), açamadığın sayfa varsa hangi tür olduğu ve nedeni ("erişilemedi (giriş gerekli)" / "(Chrome bağlı değil)"), "mühür hazır". Kazanan adı, derece ya da ipucu verme.
 
@@ -42,7 +43,7 @@ Brifingde etkinlik adı, linki ve klasör yolu gelir.
 
 Brifingde kürsü baskısının adı ve galeri adresi gelir. O baskının sonucu gizli değildir, Mergen araştırmadan bilir; ama listeyi sıralayacak Töre görmemelidir.
 
-1. Galeriyi hazırlık modundaki gibi aç. Sunulan bütün projeleri (örneklem değil) `pano/gecmis-alan.md`'ye `kor-liste.md` biçimiyle, tam teslim metinlerini sonuçsuz olarak `pano/gecmis-alan/<numara>.md`'ye yaz; olgunluk ve medya kuralları hedef kör listeyle aynıdır. Ödül, rozet, derece yok. Sırayı alfabetik değil rastgele karıştır. Kazananları bildiğin için onlara daha çok bakma. 150'den fazla proje varsa önce yalnız liste satırlarını yaz; tam metni Mergen'in verdiği 150 aday için sonra çıkar.
+1. Galeriyi hazırlık modundaki gibi aç. Sunulan bütün projeleri (örneklem değil) `pano/gecmis-alan.md`'ye `kor-liste.md` biçimiyle, tam teslim metinlerini sonuçsuz olarak `pano/gecmis-alan/<numara>.md`'ye yaz; olgunluk ve medya kuralları hedef kör listeyle aynıdır. Ödül, rozet, derece yok. Sırayı alfabetik değil rastgele karıştır. Kazananları bildiğin için onlara daha çok bakma; gövde kalıbı hazırlık modundakiyle aynıdır. 150'den fazla proje varsa önce yalnız liste satırlarını yaz; tam metni Mergen'in verdiği 150 aday için sonra çıkar.
 2. Mergen'e yalnız proje sayısını, listeye yazılan proje sayısını ve olgunluğu `bilinmiyor` kalan proje sayısını dön.
 
 ## Tarayıcı ve körlük
