@@ -18,7 +18,7 @@ Kulübün geçmiş dersi: fikir işi alt ajana madde listesi özetiyle verildiğ
 
 **Varyant modu:** Kullanıcının beğendiği yan (teknik, kullanıcı, mekanik) brifingde gelir. O yanı sabit tutup gerisini değiştiren 3–5 varyant yaz.
 
-**Geliştirme modu:** Brifingde bir fikir ve onu geride bırakan dersler gelir. Bu dersleri gerçekten karşılayan yeni numaralı bir varyant yaz; `fikir` bölüm 6'daki geliştirme tanımına uy. Kaynağını ve önce → sonra'yı `pano/huni<N>-dersler-gelistirme.md`'ye yaz, karta yazma. Karşılanamıyorsa "geliştirilemedi: neden" yaz; uydurma kullanıcı, pilot ya da ödemeyle kapatma.
+**Geliştirme modu:** Brifingde bir fikir ve onu geride bırakan dersler gelir. Bu dersleri gerçekten karşılayan yeni numaralı bir varyant yaz; `fikir` bölüm 6'daki geliştirme tanımına uy. Brifing büyütme istiyorsa kullanıcıyı ve döngüyü değiştirme: motoru `kürsü` derslerindeki üst komşunun gösterdiğine doğru büyüt. Güvence eklemek (test, hata yolu, ölçüm planı) büyütme değildir. Kaynağını ve önce → sonra'yı `pano/huni<N>-dersler-gelistirme.md`'ye yaz, karta yazma. Karşılanamıyorsa "geliştirilemedi: neden" yaz; uydurma kullanıcı, pilot ya da ödemeyle kapatma.
 
 **Tam kart modu:** Brifingde fikir numaraları gelir. Bu fikirlerin kısa kartlarını `kartlar.md`'deki tam karta genişlet; puan, itiraz, Yabancı, benzer ve jüri satırlarını boş bırak (Mergen işler).
 
@@ -26,12 +26,12 @@ Kulübün geçmiş dersi: fikir işi alt ajana madde listesi özetiyle verildiğ
 
 ## İyi fikrin ölçüsü
 
-- Tek kullanıcı, tek ana akış, tek cümlelik değer önerisi. Her şeyi yapan ürün değil.
+- Tek kullanıcı, tek ana akış, tek cümlelik değer önerisi. Her şeyi yapan ürün değil. Tek akış küçük motor demek değildir: akış tektir, arkasındaki motor kürsününki kadar derindir.
 - Platformun rakiplerin çoğunda olmayan bir yeteneğine yaslanır; "neden burada" cevabı tek cümlede net.
 - Karar verenlerin gördüğü bir projenin kopyası değil (kullanıcı, çekirdek döngü, primitif).
 - Bir başlık ve tek sahneyle anlaşılır.
 - **Görünür dönüşüm.** Jüri ilk 30 saniyede bir önce ve sonra farkı görür: kullanıcının girdisiyle değişen ekran, fiziksel ya da görsel bir sonuç. Yalnız tablo, dosya ya da rapor çıktısı gösteren fikir zayıf demodur.
-- **Çıtaya yazılır.** Çıta (`pano/cita.md` ya da bağlam paketindeki bölümü) bu jürinin geçen kez neyi kürsüye çıkardığını gösterir. Fikrin demo günü kapsamı oradaki en küçük kürsü kapsamından küçük olmaz; ayıran boyutlarda bir kürsü projesine denk bir şey gösterir. Demo anı ürünün ana dönüşümüdür, bir ret ya da uyarı mesajı değil (`fikir` bölüm 2). İtiraza dayanıklı ama küçük fikir kürsüye çıkmaz.
+- **Çıtaya yazılır.** Çıta (`pano/cita.md` ya da bağlam paketindeki bölümü) bu jürinin geçen kez neyi kürsüye çıkardığını gösterir. Hedef kürsünün üst ucudur, tabanı değil: fikrin demo günü kapsamı oradaki en büyük kürsü kapsamına yazılır (en küçüğünden küçük olamaz) ve fikir, ayıran boyutların her birinde kürsünün en çok gösterenine denk bir şey gösterir. Kürsünün motoru ekibin tek tek hazırlamadığı içerikte çalışıyorsa fikrin motoru da öyle çalışır; önceden tanıtılmış iki örnekte dönen sahne ürünün gösterimidir, ürün değil (canlı kamera ya da dosya yükleme tek başına yetmez). Kapasite kürsünün aynı sürede kurduğudur; kapsamı kendiliğinden daraltma. Demo anı ürünün ana dönüşümüdür, bir ret ya da uyarı mesajı değil (`fikir` bölüm 2). İtiraza dayanıklı ama küçük fikir kürsüye çıkmaz.
 - "Bunu neden isteyeyim?" ve "para nereden gelir?" sorularının cevabı kartta.
 - Kulübün itirazlarına (brifingdeki liste) takılmamaya çalışır; ama itirazları gözetmek için fikri sulandırma, cesur fikri kontrast olarak da olsa yaz.
 

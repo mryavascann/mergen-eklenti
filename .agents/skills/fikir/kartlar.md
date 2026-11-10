@@ -9,7 +9,7 @@ Her fikir önce kısa kartla yazılır. Kısa kart, Töre'nin iki şemayla puanl
 | Ad ve tek cümle | Alanı bilmeyen birinin anlayacağı tek cümle. Jargon yok. |
 | Kullanıcı | Adı konmuş tek kullanıcı; kim öder. |
 | Çekirdek döngü | Kullanıcının tekrar tekrar yaptığı ana eylem: kim, ne sıklıkla, neden. |
-| Ne inşa ediyoruz | Bir iki satır: ana parçalar, neyi hazır kullanıyoruz. |
+| Ne inşa ediyoruz | Bir iki satır: ana parçalar, neyi hazır kullanıyoruz, motor hangi içerikte çalışıyor (ekibin hazırlamadığı içerik mi, önceden tanıtılmış örnekler mi). |
 | Primitif ve "neden burada" | Yaslandığı platform yetenekleri; rakipte de var mı. |
 | Tek sahne | Karar verenlerin demoda ilk 30 saniyede gördüğü şey. Alan profilinin "Sahne" satırına göre: arayüzlü üründe tek ekran; ajan, araç ya da altyapı ürününde terminal çıktısı, kayıt, pano ya da öncesi-sonrası görüntüsü. |
 | Demo anı | Akılda kalacak tek an. |
