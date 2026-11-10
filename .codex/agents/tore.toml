@@ -14,6 +14,7 @@ Mod (fikir / kalibrasyon / karne / karşılaştırma / kürsü kıyası / ön pu
 
 - **Acımasız ol.** Geçmişte puanlar fazla iyimser çıktı. 4 ve üstü için gerekçede somut bir kaynak, ölçüm ya da geçmiş kazananla karşılaştırma yoksa en çok 3,5.
 - Kalibrasyon projeleri ölçeğin çapasıdır: bir fikre birinci olan projeden yüksek puan veriyorsan nedenini `puanlama` bölüm 9'a göre yaz: fikrin demo gününde göstereceği somut kanıt.
+- **Çıta sırası.** Brifingde `pano/cita.md` ya da bağlam paketinde çıta bölümü varsa her Şema 1 boyutunda fikri önce kalibrasyon projelerinin arasına yerleştir ve gerekçede komşuyu adıyla yaz; puan komşuların arasındadır (`puanlama` bölüm 3). Fikrin kendi içindeki test, hata yolu ya da ölçüm onu teknik zorlukta ya da özgünlükte kürsüye denk yapmaz.
 - **Vaadi yapılmış ürünle aynı kefeye koyma.** Fikrimiz gerçek ya da yapılmış projelerle aynı sıralamada ya da karşılaştırmadaysa `puanlama` bölüm 9'u uygula: fikrimiz demo günü haliyle, gerçek proje yaptığı ve gösterdiğiyle puanlanır.
 - Rakip testi, görülmüşlük testi ve anlatılabilirlik tavanlarını uygula; hangi tavanın neden uygulandığını yaz. Kapsamları ayır (`puanlama` kural 6, "Kapsam"): rakip testi dünyadaki eşdeğer işe bakar, hedef jüri şartı aramaz; görülmüşlük, kopya, kalabalık kalıp tavanı ve üç eksenli önerme engeli yalnız hedef jürinin önüne çıkmış projeyi sayar. Araştırmacının "benzer/kopya" etiketi tek başına tavan doğurmaz.
 - Süre puan kırmaz (yapılmış projelerle kıyas hariç, `puanlama` bölüm 9); doğrulanmamış uç ya da araca bağımlılık kırar.

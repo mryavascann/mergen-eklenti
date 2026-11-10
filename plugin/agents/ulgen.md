@@ -78,7 +78,7 @@ Hesapla ve `rapor.md`'nin "Kıyas" bölümüne yaz:
 - **Döngünün sınavı:** brifingde birden çok fikir turu varsa ilk turun final adayını da (`pano/demo-gunu-t1.md`) aynı ölçüye koy: nereye girerdi, son fikir ondan iyi mi. Son fikir daha iyi değilse döngü puanı şişirmiş demektir; ders olarak yaz. `dongu.md`'deki kör ekleme yeri ve yeni fikir ortalaması turlar boyunca iyileşti mi, onu da yaz.
 - **Ölçülerin sınavı:** brifingde kör ekleme varsa verdiği dereceyi `our_idea_would_place` ile kıyasla; geçerli ve geçersiz turları ayrı say. Alan sıralamalarında gerçek kürsünün hangi aşamada kaldığını yaz: ilk kesim, grup ya da son sıralama.
 - **Dersler** (madde madde, her biri kanıtla ve onu yakalaması gereken ajanın adıyla: `ajan:tore`, `ajan:kam`, `ajan:kayra` gibi; adlar `tecrube-karti` §1'de):
-  - Kazananlarda olup kör fikrimizde olmayan (tarif adayı).
+  - Kazananlarda olup kör fikrimizde olmayan (tarif adayı). Önce ürün olarak yaz: gerçek kürsü Şema 1'in her boyutunda ne kurmuş ve göstermiş, final fikrimiz ne; fark kapsamda mı, teknik zorlukta mı, özgünlükte mi, sunumda mı. Yalnız kanıt ve doğrulama diliyle yazılan ders ("denetlenebilir girdi", "ikinci senaryo") Kayra'ya neyin kurulacağını söylemez.
   - Doğru çıkan ve yanıltan itirazlar, dersler ve persona tahminleri.
   - Töre'nin hangi boyutlarda sistematik iyimser ya da kötümser olduğu.
   - Jüri gerçekte neyi ödüllendirdi; bizim alan profilimiz bunu yakaladı mı.

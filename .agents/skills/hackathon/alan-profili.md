@@ -17,7 +17,7 @@ Onaylanan profil üç şeyi belirler:
 
 1. Çalışma dosyasındaki bölüm adları (örneğin Adım 3'ün bölümü bir hackathonda "ürün-pazar uyumu sinyali", başkasında "kullanılabilirlik sinyali").
 2. Fikir kartındaki alana özgü satır ve derin analizdeki çekirdek döngü.
-3. İki şemadaki "5 puan" ve "1 puan" tanımları.
+3. Şema 2'deki "5 puan" ve "1 puan" tanımları. Şema 1'in tanımları ölçütün kendi sorduğunu sorar (`puanlama` bölüm 1); profil oraya ölçütte olmayan bir şart taşımaz.
 
 ## Biçim örneği (kulübün geçmiş iki hackathonu)
 
