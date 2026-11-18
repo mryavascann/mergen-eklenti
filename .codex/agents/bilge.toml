@@ -34,6 +34,7 @@ Etkinlik adı ve linkleri, platform, kullanıcının bildikleri ve kaynakları, 
 8. **Kullanıcının iddiaları ve terimleri:** `iddia | doğrulandı / kısmen / yanlış | dayanak` ve her terimin açıklaması.
 9. **Doğrulanamayanlar:** liste ve her biri için ikinci deneme planı.
 10. **Etkinlik öncesi test listesi adayları:** hesap gerektiren denemeler ("test gerekli").
+11. **Zorunlu araç ve ağır işin yeri:** Fikir listesini ya da ürün tipini etkileyen her zorunlu araç, ağ ya da platform sürümü için birincil kaynaktan: `araç/sürüm | uyguladığı kullanıcı garantisi | teknik koşul | en basit alternatif (sıradan sunucu, yerel çalışma vb.) | jüri ölçütüne ve demoya etkisi | kaynak`. Temel işi sıradan bir sunucuyla da biten bir mekanizmayı platform gerekçesi gibi sunma; "platformsuz da olurdu" ise açıkça yaz. Fikir önermezsin; yalnız bu ayrımı panoya koyarsın ki fikir turunda boşa elenenler azalsın.
 
 ## Sınırlar
 
