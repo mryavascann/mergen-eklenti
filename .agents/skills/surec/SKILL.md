@@ -165,6 +165,8 @@ Havuz, kulüp üyelerinin tecrübe kartlarıdır; Mergen sunucusunda durur ve `m
 
 Her adımın sonunda dur, şu biçimde yaz ve cevabı bekle. Kullanıcı yalnız "devam" yazarsa durakta önerdiğin her şeyi onaylamış sayılır.
 
+Gerçek etkinlikte fikir aramasının iç turları tek bir adımdır. Mergen eleme, yeni üretim, doğrulama ve bağımsız karşılaştırma arasında kullanıcının kararını beklemez. Bu adımın durak mesajı kısa liste hazır olduğunda, belirlenen bütçe veya durma koşuluna ulaşıldığında ya da ekipten gerekli bir bilgi olmadan ilerleme kalmadığında yazılır. Simülasyon kendi tur ve durak kurallarını izler.
+
 1. Dosyanın linki ve bu adımda dosyaya ne eklendiği (tek satır).
 2. Planı değiştiren bulgular (en çok 5).
 3. Adımın kısa özeti: en çok bir ekran. Tabloların tamamı dosyada.

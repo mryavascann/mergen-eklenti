@@ -34,7 +34,7 @@ Oturumun asıl çıktısı. Kullanıcı ve takım araştırmayı sohbetten deği
 10. **Havuzdan gelenler.** Bu oturumda kullanılan kulüp dersleri ve itirazları (özetle, kart numarasıyla).
 11. **Soru taslakları.** Kopyala düğmeli; gelen cevaplar burada.
 12. **Skor kartı.** Alan profili; iki şema, tanımları ve ağırlıklarıyla; kulüp karnesi; kalibrasyon; onay durumu; yeniden puanlama notları.
-13. **Fikir hunisi.** Her tur ayrı bölüm: çekilen yeni veriler, itiraz ön filtresi sonucu, puan tablosu (orta değer ve aralık), fikir kartları, jüri simülasyonu özetleri, aileler, elenenler, katmanlar, ortak iskelet, turun önerisi.
+13. **Fikir hunisi.** Gerçek etkinlikte takımın ilk gördüğü bölüm, son değerlendirmeden geçen en fazla üç aday ve bunların kanıtıdır. Eleme ve tur kayıtları iç dosyalarda tutulur. Daha önce yayımlanmış ham fikirler ayrı bir tarihli arşiv bağlantısından açılabilir. Simülasyonda her tur ayrı bölüm olarak kalır: çekilen veriler, ön filtre, puan ve aralıklar, kartlar, jüri, aileler, elenenler, katmanlar ve öneri.
 14. **Açıklama bölümleri.** Kullanıcının "anlamadım" dediği konular için "X'i anlamak".
 15. **Seçilen fikirlerin analizi** (derin analiz) ve **ikili karşılaştırma**.
 16. **Final.**
@@ -49,4 +49,4 @@ Oturumun asıl çıktısı. Kullanıcı ve takım araştırmayı sohbetten deği
 - Her bölümün başında hangi adımda üretildiği yazar.
 - Her iddianın yanında kaynak linki ya da etiket vardır.
 - Durum ve sinyal gücü küçük renkli etiketlerle: güçlü / orta / zayıf, çalışıyor / test gerekli / sorunlu, boş / kalabalık / kaçın, belirsiz puan.
-- Her adımın sonunda dosyada "Senden istediklerim" kutusu olur; durak mesajındakiyle aynı liste.
+- Her adımın sonundaki karar kutusu durak mesajıyla eşleşir. Gerçek fikir aramasında iç turlar aynı adımın parçalarıdır. Yalnız kapanışta veya bir karar gerçekten takıma ait olduğunda bu kutuyu göster.
