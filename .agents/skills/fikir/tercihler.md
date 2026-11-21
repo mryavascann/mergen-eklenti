@@ -6,7 +6,7 @@
 - **[TERCİH]** puanlanmaz; her fikir kartında "uygun / kısmen / uymuyor" diye not edilir ve eşitlikte kullanılır.
 
 1. **[ŞART]** Tek kullanıcı, tek ana akış, tek cümlelik değer önerisi. "Her şeyi yapan" ürün yok.
-2. **[ŞART]** Demoda canlı çalıştığı görülebilmeli.
+2. **[ŞART]** Çalışan ürünün sonucu etkinliğin teslim biçiminde anlaşılabilmeli (`fikir/arena.md`, «Değerlendirme biçimi»). Simülasyonda mevcut canlı demo sınaması uygulanır.
 3. **[ŞART]** Fikir platforma gerçekten yaslanmalı; "neden burada, neden başka yerde değil?" sorusunun cevabı net olmalı:
    - Platform olmadan da aynı şekilde çalışıyorsa elenir.
    - Platformu kullanıyor ama öne çıkan hiçbir noktasına yaslanmıyorsa elenir. Öne çıkan nokta, Adım 1'deki primitif tablosunda rakiplerin çoğunda bulunmayan bir yetenek ya da yetenek bileşimidir.

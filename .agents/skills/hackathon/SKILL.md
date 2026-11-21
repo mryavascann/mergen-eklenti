@@ -87,6 +87,8 @@ Dosyayı Adım 1'de aç, Adım 2'de emsallerle, Adım 3'te canlı çözümler ve
 
 Bilge (`bilge`) ve Kam'ı (`kam`, Adım 1 modu) **paralel** çağır. Pano yolları: `pano/adim1-bilge.md`, `pano/adim1-kam.md`; Kam ayrıca `pano/personalar.md`'yi oluşturur.
 
+Gerçek etkinlikte Kam, `.agents/skills/fikir/arena.md` içindeki «Değerlendirme biçimi» uyarınca her aşamanın teslimini, katılım biçimini ve kaynağını araştırır. Mergen sonucu oturum kaydına ve sonraki brifinglere geçirir.
+
 Gerçek hazırlıkta Bilge'ye §2.1'deki kaynak, garanti, sınır ve kısa deneme maddelerini ver. Kam'dan resmî ölçütün tam ifadesini ve jüri açıklamasını ayırmasını, ölçütte teknik kanıt isteniyorsa kaynağını göstermesini iste.
 
 Ajanlar bitince:
