@@ -1,5 +1,5 @@
 {
-  "description": "Mergen'in Codex bölümü her oturum başında kendini günceller.",
+  "description": "Oturum güncellemesi ve ajan ofisi. Ofis sinyalleri MERGEN_KULLANIM=0 ile kapanır.",
   "hooks": {
     "SessionStart": [
       {
@@ -11,6 +11,54 @@
             "commandWindows": "git pull --ff-only --quiet",
             "timeout": 30,
             "statusMessage": "Mergen güncelleniyor"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"try{const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=require('node:child_process').execFileSync('git',['rev-parse','--show-toplevel'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();const text=fs.readFileSync(path.join(root,'.codex','ofis.mjs'),'utf8').split(String.fromCharCode(13,10)).join(String.fromCharCode(10));if(crypto.createHash('sha256').update(text).digest('hex')==='3178e04919d1e682116ad1cb965583c796d5d63a6cc96780241a8625cd38b982')import('data:text/javascript;base64,'+Buffer.from(text).toString('base64')).catch(()=>{})}catch{}\" codex",
+            "async": true,
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"try{const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=require('node:child_process').execFileSync('git',['rev-parse','--show-toplevel'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();const text=fs.readFileSync(path.join(root,'.codex','ofis.mjs'),'utf8').split(String.fromCharCode(13,10)).join(String.fromCharCode(10));if(crypto.createHash('sha256').update(text).digest('hex')==='3178e04919d1e682116ad1cb965583c796d5d63a6cc96780241a8625cd38b982')import('data:text/javascript;base64,'+Buffer.from(text).toString('base64')).catch(()=>{})}catch{}\" codex",
+            "async": true,
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"try{const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=require('node:child_process').execFileSync('git',['rev-parse','--show-toplevel'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();const text=fs.readFileSync(path.join(root,'.codex','ofis.mjs'),'utf8').split(String.fromCharCode(13,10)).join(String.fromCharCode(10));if(crypto.createHash('sha256').update(text).digest('hex')==='3178e04919d1e682116ad1cb965583c796d5d63a6cc96780241a8625cd38b982')import('data:text/javascript;base64,'+Buffer.from(text).toString('base64')).catch(()=>{})}catch{}\" codex",
+            "async": true,
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"try{const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');const root=require('node:child_process').execFileSync('git',['rev-parse','--show-toplevel'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();const text=fs.readFileSync(path.join(root,'.codex','ofis.mjs'),'utf8').split(String.fromCharCode(13,10)).join(String.fromCharCode(10));if(crypto.createHash('sha256').update(text).digest('hex')==='3178e04919d1e682116ad1cb965583c796d5d63a6cc96780241a8625cd38b982')import('data:text/javascript;base64,'+Buffer.from(text).toString('base64')).catch(()=>{})}catch{}\" codex",
+            "async": true,
+            "timeout": 5
           }
         ]
       }

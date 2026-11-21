@@ -1,5 +1,5 @@
 {
-  "description": "Mergen kullanım sayacı: Mergen ajanlarının yalnız token sayılarını (ajan, model, mesaj kimliği, zaman) kulüp sunucusuna gönderir; içerik göndermez. Kapatmak için MERGEN_KULLANIM=0.",
+  "description": "Kullanım sayacı ve ajan ofisi. İçerik gönderilmez. Kapatmak için MERGEN_KULLANIM=0.",
   "hooks": {
     "SubagentStop": [
       {
@@ -8,6 +8,20 @@
             "type": "command",
             "command": "{ sh \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.sh\"; exit 0; }\n& ([scriptblock]::Create((Get-Content -Raw -LiteralPath \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.ps1\")))",
             "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "async": true,
+            "timeout": 5,
+            "args": [
+              "${CLAUDE_PLUGIN_ROOT}/hooks/ofis.mjs",
+              "claude"
+            ]
           }
         ]
       }
@@ -19,6 +33,52 @@
             "type": "command",
             "command": "{ sh \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.sh\"; exit 0; }\n& ([scriptblock]::Create((Get-Content -Raw -LiteralPath \"${CLAUDE_PLUGIN_ROOT}/hooks/kullanim.ps1\")))",
             "async": true
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "async": true,
+            "timeout": 5,
+            "args": [
+              "${CLAUDE_PLUGIN_ROOT}/hooks/ofis.mjs",
+              "claude"
+            ]
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "async": true,
+            "timeout": 5,
+            "args": [
+              "${CLAUDE_PLUGIN_ROOT}/hooks/ofis.mjs",
+              "claude"
+            ]
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "async": true,
+            "timeout": 5,
+            "args": [
+              "${CLAUDE_PLUGIN_ROOT}/hooks/ofis.mjs",
+              "claude"
+            ]
           }
         ]
       }
