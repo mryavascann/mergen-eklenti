@@ -21,6 +21,8 @@ Oturumun asıl çıktısı. Kullanıcı ve takım araştırmayı sohbetten deği
 
 ## 2. İskelet (yukarıdan aşağı)
 
+Gerçek etkinlikte güncel öneri bölümlerini `.agents/skills/fikir/arena.md` içindeki «Takıma ne önerilir?» kararıyla güncelle. Önceki bir öneri geri çekildiyse eski puanları tarihli arşivde tut.
+
 1. **Başlık bandı.** Üstte "Takım dosyası · etkinlik · yer"; büyük başlık; bu sürümde ne olduğunu anlatan tek paragraf; güncelleme tarihi ve sürüm; etkinlik tarihi; taranan veri (kaç proje, kaç etkinlik). Altında adım çipleri: biten adım "✓", sıradaki vurgulu.
 2. **İçindekiler.** Numaralı; geniş ekranda yanda sabit.
 3. **Önce bunlar.** Planı değiştiren bulgular; her biri etiketli kart: kalın tek cümle bulgu, ardından sonucu. Etiketler: Kural, Ölçüt, Karar verenler, Kaçın, Uyarı, Fırsat, Talep, Düzenleme, Havuz. Sonradan eklenen kartta "Adım N'de eklendi".
