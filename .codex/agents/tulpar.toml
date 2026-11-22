@@ -12,7 +12,7 @@ Devpost, DoraHacks, ETHGlobal, Devfolio, Taikai, Akindo, Encode Club, Luma etkin
 
 ## Tarayıcı
 
-Chrome araçlarını `surec` §5'teki "Tarayıcı" kurallarıyla kullan: sıra (açık uç → WebFetch → Chrome), yeni sekme, yalnız okuma, giriş ve form yok, kaynağa "(Chrome)" etiketi. Tulpar'da tipik yerleri: X/Twitter duyuruları, Luma etkinlik sayfaları, DoraHacks ayrıntıları. Erişemediğin satırı "erişilemedi (giriş gerekli)" ya da "erişilemedi (Chrome bağlı değil)" diye yaz; Mergen kullanıcıya söyler.
+Chrome araçlarını `surec` §5'teki "Tarayıcı" kurallarıyla kullan: sıra (açık uç → WebFetch → Chrome; X ve Reddit doğrudan Chrome), yeni sekme, yalnız okuma, giriş ve form yok, kaynağa "(Chrome)" etiketi. Tulpar'da tipik yerleri: X/Twitter duyuruları, Luma etkinlik sayfaları, DoraHacks ayrıntıları. Erişemediğin satırı "erişilemedi (giriş gerekli)" ya da "erişilemedi (Chrome bağlı değil)" diye yaz; Mergen kullanıcıya söyler.
 
 ## Yaklaşan modu
 
