@@ -9,7 +9,7 @@ description: "Sunumu yapacak kişiyi etkinliğe hazırlar (Adım 7). Atabey seç
 
 Mod: kullanıcının mesajı (boşsa: kart yoksa önce kart, varsa test).
 
-Gerçek etkinlikte her aşamanın `durum.md` kaydındaki değerlendirme biçimini kullan. Kayıt eksikse `.agents/skills/fikir/arena.md` içindeki «Değerlendirme biçimi» yolunu uygula. Prova soruları ekibin hazırlığı içindir.
+Gerçek etkinlikte her aşamanın `durum.md` kaydındaki değerlendirme biçimini kullan. Kayıt eksikse `.agents/skills/fikir/arena.md` bölüm 2'yi uygula. Prova soruları ekibin hazırlığı içindir.
 
 ## Çalışma kartı
 

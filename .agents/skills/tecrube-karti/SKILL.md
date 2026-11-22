@@ -123,4 +123,4 @@ tags: [readme, demo, takvim]
 
 ## 6. Gönderme
 
-Kartı kullanıcıya göster, onayını al, `card_submit` ile gönder. Kart **karantinaya** girer ve **yalnız bir yönetici onaylayınca** havuza açılır (2026-10-23, kullanıcı kararı). Üyelerin onayı destek olarak kaydedilir ve yöneticiye gösterilir. Kullanıcıya kart numarasını ve karantinada olduğunu söyle.
+Kartı kullanıcıya göster, onayını al, `card_submit` ile gönder. Kart **karantinaya** girer ve **yalnız bir yönetici onaylayınca** havuza açılır (2026-10-23, kullanıcı kararı). Karantinadaki kartı yalnız yazarı ve yöneticiler görür (2026-11-21). Kullanıcıya kart numarasını ve karantinada olduğunu söyle.

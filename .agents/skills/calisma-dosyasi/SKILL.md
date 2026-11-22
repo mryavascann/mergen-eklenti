@@ -21,7 +21,7 @@ Oturumun asıl çıktısı. Kullanıcı ve takım araştırmayı sohbetten deği
 
 ## 2. İskelet (yukarıdan aşağı)
 
-Gerçek etkinlikte güncel öneri bölümlerini `.agents/skills/fikir/arena.md` içindeki «Takıma ne önerilir?» kararıyla güncelle. Önceki bir öneri geri çekildiyse eski puanları tarihli arşivde tut.
+Gerçek etkinlikte güncel öneri bölümlerini `.agents/skills/fikir/arena.md` bölüm 7'ye göre güncelle: yalnız takıma sunulan kısa kartlar, Mergen'in işaretledikleri ve en sonda beğeni okumasının ayırdıkları (tek satırla) görünür. Önceki bir öneri geri çekildiyse eski puanları tarihli arşivde tut.
 
 1. **Başlık bandı.** Üstte "Takım dosyası · etkinlik · yer"; büyük başlık; bu sürümde ne olduğunu anlatan tek paragraf; güncelleme tarihi ve sürüm; etkinlik tarihi; taranan veri (kaç proje, kaç etkinlik). Altında adım çipleri: biten adım "✓", sıradaki vurgulu.
 2. **İçindekiler.** Numaralı; geniş ekranda yanda sabit.

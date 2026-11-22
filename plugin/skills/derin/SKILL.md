@@ -12,7 +12,7 @@ Finalistler: $ARGUMENTS (boşsa `durum.md`'de ve fikir hunisinin son turunda ön
 
 ## Adım 5 · Derin analiz
 
-Gerçek etkinlikte eski listeden gelen veya kullanıcının getirdiği fikir dahil her sürüm için finalist ve seçim önerisinden önce `${CLAUDE_PLUGIN_ROOT}/skills/fikir/arena.md` içindeki «Takıma ne önerilir?» kararını uygula. Kullanıcı belirli bir fikrin incelemesini istediyse açık kanıtı ve kararı ona bildir.
+Gerçek etkinlikte eski listeden gelen veya kullanıcının getirdiği fikir dahil her sürüm için finalist ve seçim önerisinden önce `${CLAUDE_PLUGIN_ROOT}/skills/fikir/arena.md` bölüm 5'teki kapıları uygula. Prototip ve teknik deneme bu adımda, takım fikri seçtikten sonra yapılır. Kullanıcı belirli bir fikrin incelemesini istediyse açık kanıtı ve kararı ona bildir.
 
 Her finalist için Kayra'yı (`mergen:kayra`) derin analiz modunda çağır (finalistler paralel çağrılabilir); 1–9 ve 11–15. maddeleri o yazar. Zor sorular (madde 10) Kurultay'dan, geç aşama itirazları (16) Kurultay'ın itiraz modundan, tam puan tablosu (17) Töre'den gelir. Kayra'nın analizini kendin oku ve denetle: her madde var mı, sayılar kaynaklı mı, demo akışı sahne biçimine uyuyor mu. Eksikse bir kez geri gönder.
 

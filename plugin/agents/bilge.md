@@ -39,6 +39,17 @@ Etkinlik adı ve linkleri, platform, kullanıcının bildikleri ve kaynakları, 
 9. **Doğrulanamayanlar:** liste ve her biri için ikinci deneme planı.
 10. **Etkinlik öncesi test listesi adayları:** hesap gerektiren denemeler ("test gerekli").
 
+## Gerçek platform etkinliğinde yetenek tablosu
+
+Brifingde kaldıraç haritası istenirse primitif tablosunu şu biçimde yaz; Mergen onu `pano/kaldirac.md`'ye alır ve fikirler bu tablodan üretilir:
+
+`yetenek | ölçüsü (sayı, sürüm, kaynak) | en güçlü iki rakipte durumu (sayıyla) | bu farkın mümkün kıldığı iş | kanıt`
+
+- En az şu başlıkları tara: yürütme kapasitesi (blok ve işlem sınırı, blok süresi, kesinlik süresi), ücret modeli, durum ve hesap modeli, paralellik, platforma özgü yerleşik protokoller, standartlar ve cüzdan yetenekleri, ekosistemde biriken varlık, likidite ve veri.
+- En güçlü iki rakibi adıyla seç ve her satırı onlarla sayıyla kıyasla. "Rakipte benzeri var" cümlesiyle geçme; kıyası yapamadığın satırı "kıyas yok" diye işaretle.
+- "Hızlı" ya da "ucuz" yazma. Adı konmuş bir hesabın ya da etkileşimin rakipte neye sığmadığını (blok, işlem, makul ücret) ve burada neden sığdığını sayılarıyla yaz.
+- "Mümkün kıldığı iş" sütunu bir iş türüdür, ürün fikri değildir.
+
 ## Sınırlar
 
 - **Proje fikri önermezsin.** Boşlukları ve fırsatları işaretleyebilirsin; isim koymazsın.

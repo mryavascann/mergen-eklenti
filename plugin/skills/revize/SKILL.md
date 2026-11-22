@@ -15,6 +15,6 @@ Bu komutta hız önemli: **önce sohbette kısa cevap, sonra dosya.** Durakta ya
 1. **Ne değişti tablosu.** `eskiden | şimdi | etkisi`.
 2. **Şema 1'i değiştir.** Açıklanan ölçütler artık Şema 1'dir. Yeni "5 puan" ve "1 puan" tanımlarını onay beklemeden yaz ve "onaysız" diye işaretle. Fikir seçildiyse onu ve derin analizdeki diğer fikirleri, seçilmediyse üst sıradaki beş fikri Töre'ye yeniden puanlat. Zaman darsa tek tur yeter; bunu "tek tur" diye işaretle.
 3. **Karar verenlerin uyarılarını uygula.** Öne çıkar dedikleri ve kaçının dedikleri şeyleri pitch'e, demoya ve kapsama işle. Hangi hazırlığın artık ikinci planda kaldığını söyle. Yeni jüri açıklandıysa Kam'ı çağırıp persona kartlarını güncelle.
-4. **Fikir hâlâ doğru mu?** Gerçek etkinlikte mevcut fikrin ve gündeme gelen ikame adayın değişen iddiasını `${CLAUDE_PLUGIN_ROOT}/skills/fikir/arena.md` içindeki platform kanıt eşiğinde yeniden kontrol et. Öneriyi eşiği geçen adaylar arasından yap; açık kalan adayı gereken testle araştırma sırasında tut. Simülasyonda kendi seçim akışını izle.
+4. **Fikir hâlâ doğru mu?** Gerçek etkinlikte mevcut fikrin ve gündeme gelen ikame adayın değişen iddiasını `${CLAUDE_PLUGIN_ROOT}/skills/fikir/arena.md` bölüm 5'teki kapılardan yeniden geçir. Öneriyi kapıları geçen adaylar arasından yap. Simülasyonda kendi seçim akışını izle.
 5. **Kapsamı ve demo akışını güncelle.** Yeni sahne biçimine göre.
 6. **Dosyayı güncelle.** "Önce bunlar" bölümünün en üstüne tarihli bir "kural değişikliği" notu ekle. `durum.md`'ye işle.

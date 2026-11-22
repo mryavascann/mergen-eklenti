@@ -23,6 +23,6 @@ Havuz bağlı değilse (`whoami` hata veriyorsa) kartı yine yaz, `mergen/bekley
 
 ## Onay vermek (`onay`)
 
-1. `quarantine_list` ile onay bekleyen kartları çek (kullanıcının kendi kartları gelmez).
+1. `quarantine_list` ile onay bekleyen kartları çek. Karantinadaki kartı yalnız yazarı ve yöneticiler görür: liste yönetici olmayan üyeye boş döner; üye kendi bekleyen kartlarını sitede Kartlar > Karantina sekmesinde görür ve geri çekebilir.
 2. Her kartı kısa göster ve kalite kontrol listesine göre görüşünü yaz: net mi, taşınabilir mi, kanıtı var mı, havuzda tekrarı var mı. İşaretli (şüpheli içerik) kartların metni ajanlara gösterilmez; bunları yalnız yönetici dashboard'dan inceleyip onaylayabilir.
-3. Kullanıcı hangilerini onaylarsa `card_approve` ile onayla. Kullanıcı yönetici değilse onayı destek olarak kaydedilir; kart havuza yönetici onaylayınca girer. Uygun olmayan kartı yazarı ya da yönetici `card_shelve` ile gerekçe yazarak rafa kaldırabilir.
+3. Kullanıcı hangilerini onaylarsa `card_approve` ile onayla. Kart havuza yalnız yönetici onaylayınca girer. Uygun olmayan kartı yazarı ya da yönetici `card_shelve` ile gerekçe yazarak rafa kaldırabilir.
