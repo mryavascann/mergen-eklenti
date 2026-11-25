@@ -11,7 +11,7 @@ Adım adım rehber: [rehber/](rehber/) klasöründeki PDF.
 Kısaca:
 
 1. Kulüp yöneticisine GitHub e-postanı ilet; seni Mergen'e ekler.
-2. https://mergen-alpha.vercel.app adresine GitHub ile gir, **Kişisel anahtar** sayfasından anahtar üret.
+2. https://mergenagent.tr adresine GitHub ile gir. En kısa yol menüdeki **Kurulum** sayfasıdır: oradaki tek mesajı kendi yapay zekâ ajanına yapıştırırsın, gerisini ajan yapar. Elle kurmak istersen **Kişisel anahtar** sayfasından anahtar üret ve aşağıdaki adımlarla devam et.
 3. Bu depoyu ZIP olarak indir, içindeki `calisma-alani` klasörünü bilgisayarına kopyala ve Claude Code'da aç. Eklenti kurulumunu kabul et; sunucu adresi ve anahtar sorulunca gir.
 4. Yeni bir sohbette: **Simülasyon modunu başlat, tek koşu**.
 
